@@ -1,5 +1,79 @@
+@font-face {
+  font-family: "proxima-font";
+  src: url(Proxima-Nova-Font.otf);
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-right: 20px;
+}
+
+header {
+  background: #fff159;
+  padding: 8px 0;
+}
+header .parte-arriba {
+  display: flex;
+  align-items: center;
+}
+header .parte-arriba .logo {
+  min-width: 134px;
+  height: 100%;
+  margin-right: 55px;
+}
+header .parte-arriba form {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+header .parte-arriba form input {
+  height: 39px;
+  width: 554px;
+  padding-top: 6px;
+  padding: 0 15px;
+  font-family: "proxima-font";
+  font-size: 16px;
+  border: none;
+  border-radius: 3px 0 0 3px;
+}
+header .parte-arriba form input::placeholder {
+  color: rgba(77, 75, 75, 0.533);
+}
+header .parte-arriba form input:focus {
+  outline: none;
+  border: none;
+}
+header .parte-arriba form button {
+  border: none;
+  background: #fff;
+  width: 40px;
+  border-radius: 0 3px 3px 0;
+  cursor: pointer;
+}
+header .parte-arriba form button i {
+  font-size: 15px;
+  color: rgb(77, 75, 75);
+  position: relative;
+}
+header .parte-arriba form button i::after {
+  content: "";
+  position: absolute;
+  background: rgba(77, 75, 75, 0.201);
+  height: 30px;
+  width: 1px;
+  left: -15px;
+  top: -6px;
+}
+header .parte-arriba .publicidad-header {
+  width: 340px;
+}
+header .publicidad-header {
+  max-width: 340px;
+  max-height: 39px;
 }/*# sourceMappingURL=styles.css.map */
