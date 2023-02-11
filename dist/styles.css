@@ -11,7 +11,7 @@
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding-right: 20px;
+  padding-left: 10px;
 }
 
 header {
@@ -141,18 +141,34 @@ header .parte-abajo ul.nav-list .nav-section-right ul i {
   font-size: 18px;
 }
 
+main {
+  background-color: #ededed;
+  height: 100vh;
+}
 main .top-text {
   font-family: "proxima-font";
-}
-main .top-text ul {
-  list-style: none;
+  padding-top: 20px;
 }
 main .top-text div:nth-of-type(1) {
   display: flex;
+  font-size: 14px;
 }
 main .top-text div:nth-of-type(1) p {
   font-weight: bold;
+  margin-right: 2px;
 }
 main .top-text div:nth-of-type(1) ul {
   display: flex;
+  list-style: none;
+}
+main .top-text div:nth-of-type(1) ul li {
+  margin: 0 2px;
+  cursor: pointer;
+}
+main .top-text div:nth-of-type(1) ul li:after {
+  content: "-";
+  margin-left: 10px;
+}
+main .top-text div:nth-of-type(1) ul li:nth-last-child(1):after {
+  content: "";
 }/*# sourceMappingURL=styles.css.map */
