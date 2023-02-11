@@ -139,6 +139,7 @@ header .parte-abajo ul.nav-list .nav-section-right ul * {
 }
 header .parte-abajo ul.nav-list .nav-section-right ul i {
   font-size: 18px;
+  margin-right: 0;
 }
 
 main {
@@ -198,4 +199,7 @@ main .top-text div:nth-of-type(2) a {
 main .top-text div:nth-of-type(2) i {
   margin-inline: 5px;
   font-size: 10px;
+}
+main .top-text div:nth-of-type(2) div {
+  margin-left: auto;
 }/*# sourceMappingURL=styles.css.map */
