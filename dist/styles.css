@@ -171,4 +171,31 @@ main .top-text div:nth-of-type(1) ul li:after {
 }
 main .top-text div:nth-of-type(1) ul li:nth-last-child(1):after {
   content: "";
+}
+main .top-text div:nth-of-type(2) {
+  margin-top: 20px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+main .top-text div:nth-of-type(2) p {
+  position: relative;
+  margin-right: 25px;
+}
+main .top-text div:nth-of-type(2) p:after {
+  content: "";
+  position: absolute;
+  right: -12px;
+  top: 10%;
+  height: 80%;
+  width: 1px;
+  background: rgb(77, 75, 75);
+}
+main .top-text div:nth-of-type(2) a {
+  text-decoration: none;
+  color: #3483fa;
+}
+main .top-text div:nth-of-type(2) i {
+  margin-inline: 5px;
+  font-size: 10px;
 }/*# sourceMappingURL=styles.css.map */
