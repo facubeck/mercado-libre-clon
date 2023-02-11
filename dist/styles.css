@@ -190,7 +190,7 @@ main .top-text div:nth-of-type(2) p:after {
   top: 10%;
   height: 80%;
   width: 1px;
-  background: rgb(77, 75, 75);
+  background: rgba(77, 75, 75, 0.396);
 }
 main .top-text div:nth-of-type(2) a {
   text-decoration: none;
@@ -202,4 +202,19 @@ main .top-text div:nth-of-type(2) i {
 }
 main .top-text div:nth-of-type(2) div {
   margin-left: auto;
+}
+main .top-text div:nth-of-type(2) div a:nth-of-type(1) {
+  position: relative;
+}
+main .top-text div:nth-of-type(2) div a:nth-of-type(1):after {
+  content: "";
+  position: absolute;
+  right: -15px;
+  top: 10%;
+  height: 80%;
+  width: 1px;
+  background: rgba(77, 75, 75, 0.396);
+}
+main .top-text div:nth-of-type(2) div * {
+  margin: 0 15px;
 }/*# sourceMappingURL=styles.css.map */
