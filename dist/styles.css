@@ -243,10 +243,14 @@ main .main-container {
   border-radius: 4px;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
   display: grid;
-  grid-template: 1fr 1fr/768px min-content;
+  grid-template: 100%/768px min-content;
 }
 main .main-container .left-side {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
   position: relative;
+  height: 100%;
 }
 main .main-container .left-side .main-photo {
   display: flex;
@@ -286,8 +290,9 @@ main .main-container .left-side .side-photos img {
 }
 main .main-container .left-side .ls-container {
   width: 718px;
-  position: absolute;
+  position: relative;
   right: 0;
+  border: 1px solid lightblue;
 }
 main .main-container .left-side .ls-container:after {
   content: "";
