@@ -242,40 +242,65 @@ main .main-container {
   margin-top: 15px;
   border-radius: 4px;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
-  min-width: 800px;
-}
-main .main-container .photo-gallery {
-  width: 768px;
-  height: 500px;
   display: grid;
-  grid-template: 1fr/1fr 6fr;
+  grid-template: 1fr 1fr/768px min-content;
 }
-main .main-container .photo-gallery .side-photos {
-  width: 100px;
+main .main-container .left-side {
+  position: relative;
+}
+main .main-container .left-side .main-photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+}
+main .main-container .left-side .main-photo img {
+  width: 460px;
+  margin-left: 20px;
+}
+main .main-container .left-side .side-photos {
+  position: absolute;
+  top: 20px;
+  left: 20px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding-top: 15px;
-  gap: 10px;
+  gap: 16px;
 }
-main .main-container .photo-gallery .side-photos img {
+main .main-container .left-side .side-photos div {
   width: 43px;
   height: 43px;
   border-radius: 2px;
   outline: 1px solid rgba(77, 75, 75, 0.396);
-  cursor: pointer;
   outline-offset: 2px;
-}
-main .main-container .photo-gallery .side-photos img:hover {
-  outline: 1px solid rgb(22, 22, 233);
-}
-main .main-container .photo-gallery .main-photo {
-  width: 668px;
+  cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-right: 25px;
 }
-main .main-container .photo-gallery .main-photo img {
-  width: 68%;
+main .main-container .left-side .side-photos div:hover {
+  outline: 1px solid rgb(22, 22, 233);
+}
+main .main-container .left-side .side-photos img {
+  width: 100%;
+  border-radius: 2px;
+}
+main .main-container .left-side .ls-container {
+  width: 718px;
+  position: absolute;
+  right: 0;
+}
+main .main-container .left-side .ls-container:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  height: 1px;
+  width: 100%;
+  background-color: rgba(128, 128, 128, 0.222);
+}
+main .main-container .right-side {
+  width: 100%;
+}
+main .main-container.container {
+  max-width: 1180px;
+  padding-left: 0;
 }/*# sourceMappingURL=styles.css.map */
