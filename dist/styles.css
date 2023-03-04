@@ -1,11 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
 @font-face {
   font-family: "proxima-font";
-  src: url(Proxima-Nova-Font.otf);
+  src: url(fonts/Proxima-Nova-Font.otf);
+}
+@font-face {
+  font-family: "proxima-semi";
+  src: url(fonts/Fontspring-DEMO-proximanovaexcn-semibold.otf;);
+}
+@font-face {
+  font-family: "proxima-light";
+  src: url(fonts/Fontspring-DEMO-proximanova-light.otf);
+}
+@font-face {
+  font-family: "proxima-bold";
+  src: url(fonts/Fontspring-DEMO-proximanovaexcn-bold.otf);
 }
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
 }
 
 .container {
@@ -162,7 +183,7 @@ header .parte-abajo ul.nav-list .nav-section-right ul i {
 
 main {
   background-color: #ededed;
-  height: 100vh;
+  height: 100%;
 }
 main .top-text {
   font-family: "proxima-font";
@@ -257,7 +278,7 @@ main .main-container .left-side .main-photo {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 50px 0;
+  padding: 50px 0 45px;
 }
 main .main-container .left-side .main-photo img {
   width: 460px;
@@ -289,10 +310,90 @@ main .main-container .left-side .side-photos img {
   width: 100%;
   border-radius: 2px;
 }
+main .main-container .left-side .mas-publicaciones {
+  margin: 30px 0;
+}
 main .main-container .left-side .mas-publicaciones .titulo {
   font-size: 24px;
   font-weight: normal;
   letter-spacing: 0.3px;
+}
+main .main-container .left-side .mas-publicaciones #wrapper {
+  width: 720px;
+  max-width: 964px;
+  position: relative;
+  margin: 50px auto;
+}
+main .main-container .left-side .mas-publicaciones #wrapper #carousel {
+  height: 380px;
+  overflow: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+main .main-container .left-side .mas-publicaciones #wrapper #carousel::-webkit-scrollbar {
+  height: 0;
+}
+main .main-container .left-side .mas-publicaciones #wrapper #prev,
+main .main-container .left-side .mas-publicaciones #wrapper #next {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background: white;
+  border: none;
+  padding: 8px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+}
+main .main-container .left-side .mas-publicaciones #wrapper #prev {
+  top: 50%;
+  left: -60px;
+  transform: translate(50%, -50%);
+  display: none;
+}
+main .main-container .left-side .mas-publicaciones #wrapper #next {
+  top: 50%;
+  right: -60px;
+  transform: translate(-50%, -50%);
+}
+main .main-container .left-side .mas-publicaciones #wrapper #content {
+  display: grid;
+  grid-gap: 27px;
+  grid-auto-flow: column;
+  margin: auto;
+  box-sizing: border-box;
+}
+main .main-container .left-side .mas-publicaciones #wrapper .item {
+  width: 220px;
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 3px 3px 4px 1px rgba(191, 186, 186, 0.129);
+  cursor: pointer;
+  border: 1px solid rgba(191, 186, 186, 0.329);
+  border-radius: 4px;
+}
+main .main-container .left-side .mas-publicaciones #wrapper .item .item-info {
+  padding: 15px 15px 8px;
+}
+main .main-container .left-side .mas-publicaciones #wrapper .item .item-info .precio {
+  font-size: 24px;
+}
+main .main-container .left-side .mas-publicaciones #wrapper .item .item-info h2 {
+  font-size: 13px;
+  color: #00a650;
+  font-weight: 600;
+}
+main .main-container .left-side .mas-publicaciones #wrapper .item .item-info p {
+  font-size: 13px;
+}
+main .main-container .left-side .mas-publicaciones #wrapper .item:hover {
+  box-shadow: 3px 3px 8px 1px rgba(191, 186, 186, 0.433);
+}
+main .main-container .left-side .mas-publicaciones #wrapper .item-image {
+  height: 220px;
+  width: 218px;
+  border-radius: 4px 4px 0 0;
 }
 main .main-container .left-side .ls-container {
   width: 718px;

@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,105 +8,226 @@
     <!-- css -->
     <link rel="stylesheet" href="dist/styles.css" />
     <!-- bootstrap icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+  </head>
 
-<body>
+  <body>
     <header>
-        <!-- parte arriba header -->
-        <section class="parte-arriba container">
-            <img src="images/logo-header.png" alt="" class="logo" />
-            <form action="">
-                <input type="search" placeholder="Buscar productos, marcas y mas..." />
-                <button>
-                    <i class="bi bi-search"></i>
-                </button>
-            </form>
-            <img src="images/publicidad-header.webp" alt="" class="publicidad-header" />
-        </section>
-        <!-- parte abajo header -->
-        <nav class="parte-abajo container">
-            <ul class="nav-list">
-                <li class="nav-section-left">
-                    <i class="bi bi-geo-alt"></i>
-                    <span>Enviar a</span>
-                    <span>Capital Federal</span>
-                </li>
-                <li class="nav-section-mid">
-                    <ul>
-                        <li class="nav-item">Categorias <i class="bi bi-chevron-down"></i></li>
-                        <li class="nav-item">Ofertas</li>
-                        <li class="nav-item">Historial</li>
-                        <li class="nav-item">Supermercado</li>
-                        <li class="nav-item">Moda</li>
-                        <li class="nav-item">Vender</li>
-                        <li class="nav-item">Ayuda</li>
-                    </ul>
-                </li>
-                <li class="nav-section-right">
-                    <ul>
-                        <li class="nav-item">Crea tu cuenta</li>
-                        <li class="nav-item">Ingresa</li>
-                        <li class="nav-item">Mis compras</li>
-                        <i class="bi bi-cart2"></i>
-                    </ul>
-                </li>
+      <!-- parte arriba header -->
+      <section class="parte-arriba container">
+        <img src="images/logo-header.png" alt="" class="logo" />
+        <form action="">
+          <input
+            type="search"
+            placeholder="Buscar productos, marcas y mas..."
+          />
+          <button>
+            <i class="bi bi-search"></i>
+          </button>
+        </form>
+        <img
+          src="images/publicidad-header.webp"
+          alt=""
+          class="publicidad-header"
+        />
+      </section>
+      <!-- parte abajo header -->
+      <nav class="parte-abajo container">
+        <ul class="nav-list">
+          <li class="nav-section-left">
+            <i class="bi bi-geo-alt"></i>
+            <span>Enviar a</span>
+            <span>Capital Federal</span>
+          </li>
+          <li class="nav-section-mid">
+            <ul>
+              <li class="nav-item">
+                Categorias <i class="bi bi-chevron-down"></i>
+              </li>
+              <li class="nav-item">Ofertas</li>
+              <li class="nav-item">Historial</li>
+              <li class="nav-item">Supermercado</li>
+              <li class="nav-item">Moda</li>
+              <li class="nav-item">Vender</li>
+              <li class="nav-item">Ayuda</li>
             </ul>
-        </nav>
+          </li>
+          <li class="nav-section-right">
+            <ul>
+              <li class="nav-item">Crea tu cuenta</li>
+              <li class="nav-item">Ingresa</li>
+              <li class="nav-item">Mis compras</li>
+              <i class="bi bi-cart2"></i>
+            </ul>
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <main>
-        <!-- texto antes del main-container -->
-        <div class="top-text container">
-            <div>
-                <p>También puede interesarte:</p>
-                <ul>
-                    <li class="list-item">charly</li>
-                    <li class="list-item">iron maiden</li>
-                    <li class="list-item">twice formula of love</li>
-                    <li class="list-item">discos de vinilo</li>
-                    <li class="list-item">seresto</li>
-                    <li class="list-item">piñon fijo</li>
-                </ul>
-            </div>
-            <div>
-                <p>Volver al listado</p>
-                <a href="#">Música, Películas y Series</a>
-                <i class="bi bi-chevron-right"></i>
-                <a href="#">Música</a>
-                <div>
-                    <a href="#">Compartir</a>
-                    <a href="#">Vender uno igual</a>
+      <!-- texto antes del main-container -->
+      <div class="top-text container">
+        <div>
+          <p>También puede interesarte:</p>
+          <ul>
+            <li class="list-item">charly</li>
+            <li class="list-item">iron maiden</li>
+            <li class="list-item">twice formula of love</li>
+            <li class="list-item">discos de vinilo</li>
+            <li class="list-item">seresto</li>
+            <li class="list-item">piñon fijo</li>
+          </ul>
+        </div>
+        <div>
+          <p>Volver al listado</p>
+          <a href="#">Música, Películas y Series</a>
+          <i class="bi bi-chevron-right"></i>
+          <a href="#">Música</a>
+          <div>
+            <a href="#">Compartir</a>
+            <a href="#">Vender uno igual</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- main container -->
+      <div class="main-container container">
+        <!-- main publication photos -->
+        <div class="left-side">
+          <!-- little 2 photos left from main photo -->
+          <div class="side-photos">
+            <div><img src="images/mr-morale-cover.webp" alt="" /></div>
+            <div><img src="images/maniac-records.webp" alt="" /></div>
+          </div>
+          <!-- main photo -->
+          <div class="main-photo ls-container">
+            <img src="images/mr-morale-cover.webp" alt="" />
+          </div>
+          <!-- publicaciones del vendedor -->
+          <div class="mas-publicaciones ls-container">
+            <p class="titulo">Publicaciones del vendedor</p>
+            <div id="wrapper">
+              <div id="carousel">
+                <div id="content">
+                  <div class="item">
+                    <img src="images/album-covers/1.webp" class="item-image" />
+                    <div class="item-info">
+                        <h1 class="precio">$ 24.080</h1>
+                        <h2>Envío gratis</h2>
+                        <p>Kendrick Lamar Damn 2 Vinilos</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="images/album-covers/2.webp" class="item-image" />
+                    <div class="item-info">
+                        <h1 class="precio">$ 24.080</h1>
+                        <h2>Envío gratis</h2>
+                        <p>Kendrick Lamar Damn 2 Vinilos</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="images/album-covers/3.webp" class="item-image" />
+                    <div class="item-info">
+                        <h1 class="precio">$ 24.080</h1>
+                        <h2>Envío gratis</h2>
+                        <p>Kendrick Lamar Damn 2 Vinilos</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="images/album-covers/4.webp" class="item-image" />
+                    <div class="item-info">
+                        <h1 class="precio">$ 24.080</h1>
+                        <h2>Envío gratis</h2>
+                        <p>Kendrick Lamar Damn 2 Vinilos</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="images/album-covers/5.webp" class="item-image" />
+                    <div class="item-info">
+                        <h1 class="precio">$ 24.080</h1>
+                        <h2>Envío gratis</h2>
+                        <p>Kendrick Lamar Damn 2 Vinilos</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="images/album-covers/6.webp" class="item-image" />
+                    <div class="item-info">
+                        <h1 class="precio">$ 24.080</h1>
+                        <h2>Envío gratis</h2>
+                        <p>Kendrick Lamar Damn 2 Vinilos</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="images/album-covers/7.webp" class="item-image" />
+                    <div class="item-info">
+                        <h1 class="precio">$ 24.080</h1>
+                        <h2>Envío gratis</h2>
+                        <p>Kendrick Lamar Damn 2 Vinilos</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="images/album-covers/8.webp" class="item-image" />
+                    <div class="item-info">
+                        <h1 class="precio">$ 24.080</h1>
+                        <h2>Envío gratis</h2>
+                        <p>Kendrick Lamar Damn 2 Vinilos</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="images/album-covers/9.webp" class="item-image" />
+                    <div class="item-info">
+                        <h1 class="precio">$ 24.080</h1>
+                        <h2>Envío gratis</h2>
+                        <p>Kendrick Lamar Damn 2 Vinilos</p>
+                    </div>
+                  </div>
                 </div>
+              </div>
+              <button id="prev">
+                <svg
+                  width="40"
+                  height="40"
+                  viewBox="0 0 32 32"
+                  fill="rgba(0, 0, 0, 0.9)"
+                >
+                  <path
+                    d="M20.0549 6.99999L11.0596 15.9953L20.0642 25L19.0036 26.0607L8.93823 15.9953L18.9942 5.93933L20.0549 6.99999Z"
+                    fill="rgb(52,131,250)"
+                  ></path>
+                </svg>
+              </button>
+              <button id="next">
+                <svg
+                  width="40"
+                  height="40"
+                  viewBox="0 0 32 32"
+                  fill="rgba(0, 0, 0, 0.9)"
+                >
+                  <path
+                    d="M11.943 6.99999L20.9383 15.9953L11.9336 25L12.9943 26.0607L23.0596 15.9953L13.0036 5.93933L11.943 6.99999Z"
+                    fill="rgb(52,131,250)"
+                  ></path>
+                </svg>
+              </button>
             </div>
+          </div>
         </div>
 
-        <!-- main container -->
-        <div class="main-container container">
-            <!-- main publication photos -->
-            <div class="left-side">
-                <!-- little 2 photos left from main photo -->
-                <div class="side-photos">
-                    <div><img src="images/mr-morale-cover.webp" alt=""></div>
-                    <div><img src="images/maniac-records.webp" alt=""></div>
-                </div>
-                <!-- main photo -->
-                <div class="main-photo ls-container">
-                    <img src="images/mr-morale-cover.webp" alt="">
-                </div>
-                <!-- publicaciones del vendedor -->
-                <div class="mas-publicaciones ls-container">
-                    <p class="titulo">Publicaciones del vendedor</p>
-                </div>
-            </div>
-
-            <div class="right-side">
-                <p>prueba</p>
-            </div>
-
-
+        <div class="right-side">
+          <p>prueba</p>
         </div>
+      </div>
     </main>
-</body>
 
+    <script src="app.js"></script>
+  </body>
 </html>
