@@ -409,6 +409,51 @@ main .main-container .left-side .mas-publicaciones #texto-final {
   font-size: 14px;
   letter-spacing: 0.4px;
 }
+main .main-container .left-side .caracteristicas-principales {
+  padding-bottom: 500px;
+}
+main .main-container .left-side .caracteristicas-principales h1 {
+  font-size: 24px;
+  font-weight: normal;
+  letter-spacing: 0.3px;
+  margin-bottom: 20px;
+}
+main .main-container .left-side .caracteristicas-principales table {
+  width: 100%;
+  font-family: "proxima-font", sans-serif;
+  border-collapse: collapse;
+}
+main .main-container .left-side .caracteristicas-principales table tr:nth-of-type(even) th {
+  background: #F5F5F5;
+}
+main .main-container .left-side .caracteristicas-principales table tr:nth-of-type(even) td {
+  background: #ffffff;
+}
+main .main-container .left-side .caracteristicas-principales table tr:nth-of-type(1) th {
+  border-radius: 4px 0 0 0;
+}
+main .main-container .left-side .caracteristicas-principales table tr:nth-of-type(1) td {
+  border-radius: 0 4px 0 0;
+}
+main .main-container .left-side .caracteristicas-principales table tr:nth-last-of-type(1) th {
+  border-radius: 0 0 0 4px;
+}
+main .main-container .left-side .caracteristicas-principales table tr:nth-last-of-type(1) td {
+  border-radius: 0 0 4px 0;
+}
+main .main-container .left-side .caracteristicas-principales table th {
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px 20px 15px 16px;
+  background: #EBEBEB;
+  width: 193px;
+  font-weight: normal;
+}
+main .main-container .left-side .caracteristicas-principales table td {
+  background: #F5F5F5;
+  width: 100%;
+  padding-left: 25px;
+}
 main .main-container .left-side .ls-container {
   width: 718px;
   position: relative;
