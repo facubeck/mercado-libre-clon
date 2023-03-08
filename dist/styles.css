@@ -311,7 +311,8 @@ main .main-container .left-side .side-photos img {
   border-radius: 2px;
 }
 main .main-container .left-side .mas-publicaciones {
-  margin: 30px 0;
+  margin: 35px 0 30px;
+  padding-bottom: 40px;
 }
 main .main-container .left-side .mas-publicaciones .titulo {
   font-size: 24px;
@@ -322,7 +323,8 @@ main .main-container .left-side .mas-publicaciones #wrapper {
   width: 720px;
   max-width: 964px;
   position: relative;
-  margin: 50px auto;
+  margin: 20px auto 0px;
+  margin-left: 5px;
 }
 main .main-container .left-side .mas-publicaciones #wrapper #carousel {
   height: 380px;
@@ -375,9 +377,13 @@ main .main-container .left-side .mas-publicaciones #wrapper .item {
 }
 main .main-container .left-side .mas-publicaciones #wrapper .item .item-info {
   padding: 15px 15px 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 main .main-container .left-side .mas-publicaciones #wrapper .item .item-info .precio {
   font-size: 24px;
+  font-weight: normal;
 }
 main .main-container .left-side .mas-publicaciones #wrapper .item .item-info h2 {
   font-size: 13px;
@@ -394,6 +400,14 @@ main .main-container .left-side .mas-publicaciones #wrapper .item-image {
   height: 220px;
   width: 218px;
   border-radius: 4px 4px 0 0;
+}
+main .main-container .left-side .mas-publicaciones #texto-final {
+  font-family: "proxima-font";
+  color: #3483fa;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 0.4px;
 }
 main .main-container .left-side .ls-container {
   width: 718px;
