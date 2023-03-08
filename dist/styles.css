@@ -470,6 +470,23 @@ main .main-container .left-side .caracteristicas-principales .otras-caract p {
 main .main-container .left-side .caracteristicas-principales .otras-caract p span {
   font-weight: normal;
 }
+main .main-container .left-side .descripcion {
+  margin: 30px 0 35px;
+}
+main .main-container .left-side .descripcion h1 {
+  font-size: 24px;
+  font-weight: normal;
+  margin-bottom: 30px;
+  letter-spacing: 0.5px;
+}
+main .main-container .left-side .descripcion p {
+  font-family: "proxima-font", sans-serif;
+  font-size: 20px;
+  color: #7c7b7b;
+}
+main .main-container .left-side .descripcion:after {
+  content: none !important;
+}
 main .main-container .left-side .ls-container {
   width: 718px;
   position: relative;
