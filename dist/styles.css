@@ -747,6 +747,46 @@ main .main-container .right-side .info-vendedor .termometro li:nth-of-type(4) {
 main .main-container .right-side .info-vendedor .termometro li:nth-of-type(5) {
   background: #39b54a;
 }
+main .main-container .right-side .info-vendedor .info-termometro {
+  width: 100%;
+  display: flex;
+  list-style: none;
+  justify-items: flex-end;
+}
+main .main-container .right-side .info-vendedor .info-termometro .item {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 30%;
+  padding: 0 5px;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  position: relative;
+}
+main .main-container .right-side .info-vendedor .info-termometro .item .titulo h4 {
+  font-size: 22px;
+  font-weight: 500;
+}
+main .main-container .right-side .info-vendedor .info-termometro .item img {
+  width: 28px;
+}
+main .main-container .right-side .info-vendedor .info-termometro .item p {
+  font-size: 10px;
+  text-align: center;
+}
+main .main-container .right-side .info-vendedor .info-termometro .item:nth-of-type(2):before, main .main-container .right-side .info-vendedor .info-termometro .item:nth-of-type(2):after {
+  content: "";
+  position: absolute;
+  background: rgba(0, 0, 0, 0.087);
+  width: 1px;
+  height: 100%;
+}
+main .main-container .right-side .info-vendedor .info-termometro .item:nth-of-type(2):before {
+  left: 0;
+}
+main .main-container .right-side .info-vendedor .info-termometro .item:nth-of-type(2):after {
+  right: 0;
+}
 main .main-container .right-side .rs-container {
   border: 1px solid rgba(124, 123, 123, 0.262745098);
   width: 350px;
