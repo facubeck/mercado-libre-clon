@@ -267,6 +267,7 @@ main .main-container {
   grid-template: 100%/768px min-content;
   font-family: "proxima-font";
   gap: 45px;
+  padding-bottom: 10px;
 }
 main .main-container .left-side {
   display: flex;
