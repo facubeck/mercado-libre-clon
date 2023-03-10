@@ -795,6 +795,37 @@ main .main-container .right-side .info-vendedor h3#subtitulo {
   margin-top: 10px;
   font-weight: 500;
 }
+main .main-container .right-side .mas-info h2.titulo {
+  margin: 15px 0 30px;
+  font-weight: 500;
+}
+main .main-container .right-side .mas-info p.subtexto {
+  color: RGBA(0, 0, 0, 0.55);
+  font-size: 13px;
+  margin-bottom: 30px;
+}
+main .main-container .right-side .mas-info h3.conocer-mas {
+  font-size: 12px;
+  color: #3483fa;
+  cursor: pointer;
+  margin-top: 10px;
+  font-weight: 500;
+}
+main .main-container .right-side .mas-info .linea {
+  position: relative;
+  margin: 35px 0;
+  width: 350px;
+  height: 1px;
+  background: rgba(124, 123, 123, 0.262745098);
+  bottom: 0;
+  left: -17px;
+}
+main .main-container .right-side .mas-info h3.subtitulo {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.9);
+  font-weight: 500;
+  margin-bottom: 15px;
+}
 main .main-container .right-side .rs-container {
   border: 1px solid rgba(124, 123, 123, 0.262745098);
   width: 350px;
