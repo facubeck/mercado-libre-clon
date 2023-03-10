@@ -826,6 +826,26 @@ main .main-container .right-side .mas-info h3.subtitulo {
   font-weight: 500;
   margin-bottom: 15px;
 }
+main .main-container .right-side .mas-info .medios-pago h2.titulo {
+  margin-bottom: 15px;
+}
+main .main-container .right-side .mas-info .medios-pago h3.conocer-mas {
+  margin: 32px 0 10px;
+}
+main .main-container .right-side .mas-info .medios-pago .categoria {
+  margin-top: 20px;
+}
+main .main-container .right-side .mas-info .medios-pago .categoria .tarjetas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+main .main-container .right-side .mas-info .medios-pago .categoria:nth-of-type(3) h3.subtitulo {
+  margin-top: 25px;
+}
+main .main-container .right-side .mas-info .medios-pago .categoria:nth-of-type(3) .tarjetas {
+  gap: 10px 20px;
+}
 main .main-container .right-side .rs-container {
   border: 1px solid rgba(124, 123, 123, 0.262745098);
   width: 350px;
