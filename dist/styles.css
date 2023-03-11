@@ -1018,8 +1018,9 @@ main .numero-publicacion a {
 }
 
 .ofertas {
+  margin: 60px auto 60px !important;
   height: 250px;
-  background: #8533AF;
+  background: #8533af;
   display: flex;
   position: relative;
 }
@@ -1055,6 +1056,7 @@ main .numero-publicacion a {
 .ofertas .textos h2 {
   font-size: 16px;
   font-weight: 400;
+  cursor: pointer;
 }
 .ofertas .textos h2 i {
   font-size: 13px;
@@ -1063,4 +1065,54 @@ main .numero-publicacion a {
 .all-container {
   width: 1180px;
   margin: 0 auto;
+}
+
+footer {
+  background: #ffffff;
+  width: 100%;
+  font-family: "Montserrat", "proxima-font", sans-serif;
+  padding-bottom: 12px;
+  position: relative;
+  border-top: 1px solid rgba(0, 0, 0, 0.087);
+}
+footer ul.footer-nav {
+  padding: 16px 0px 12px;
+  max-width: 1200px;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+footer ul.footer-nav li.footer-item {
+  font-size: 11px;
+  font-weight: 500;
+  color: black;
+  cursor: pointer;
+}
+footer h3 {
+  font-size: 11px;
+  color: #999999;
+  font-weight: 500;
+  padding-left: 0px;
+  margin-bottom: 5px;
+}
+footer button {
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  padding: 10px 20px 5px;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.087);
+  border-bottom-color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: Arial, "Montserrat", sans-serif;
+  color: #666666;
+  border-radius: 4px;
+  cursor: pointer;
+}
+footer button i {
+  font-size: 11px;
+  color: black;
+  font-weight: bold;
 }/*# sourceMappingURL=styles.css.map */
