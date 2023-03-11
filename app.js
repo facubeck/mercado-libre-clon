@@ -87,3 +87,17 @@ prevTambien.addEventListener("click", e => {
 
 let widthTambien = carouselTambien.offsetWidth;
 window.addEventListener("resize", e => (widthTambien = carouselTambien.offsetWidth));
+
+
+// Cambiar foto cuando click side photos en el Main container
+const foto1 = document.getElementById('foto1');
+const foto2 = document.getElementById('foto2');
+const mainPhoto = document.getElementById('mainPhoto');
+
+function ponerFoto1() {
+  mainPhoto.src = 'images/mr-morale-cover.webp';
+}
+function ponerFoto2() {
+  mainPhoto.src = 'images/maniac-records.webp'
+}
+

@@ -290,6 +290,7 @@ main .main-container .left-side .main-photo {
   align-items: center;
   justify-content: center;
   padding: 50px 0 45px;
+  min-height: 555px;
 }
 main .main-container .left-side .main-photo img {
   width: 460px;
@@ -314,7 +315,7 @@ main .main-container .left-side .side-photos div {
   align-items: center;
   justify-content: center;
 }
-main .main-container .left-side .side-photos div:hover {
+main .main-container .left-side .side-photos .outline-azul {
   outline: 1px solid rgb(22, 22, 233);
 }
 main .main-container .left-side .side-photos img {
