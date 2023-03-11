@@ -56,3 +56,34 @@ prevPromo.addEventListener("click", e => {
 
 let widthPromo = carouselPromo.offsetWidth;
 window.addEventListener("resize", e => (widthPromo = carouselPromo.offsetWidth));
+
+
+// Tercer Carousel
+const gapTambien = 27;
+
+const carouselTambien = document.getElementById("carouselTambien"),
+  contentTambien = document.getElementById("contentTambien"),
+  nextTambien = document.getElementById("nextTambien"),
+  prevTambien = document.getElementById("prevTambien");
+
+nextTambien.addEventListener("click", e => {
+  carouselTambien.scrollBy(widthTambien + gapTambien, 0);
+  if (carouselTambien.scrollWidth !== 0) {
+    prevTambien.style.display = "flex";
+  }
+  if (contentTambien.scrollWidth - widthTambien - gapTambien <= carouselTambien.scrollLeft + widthTambien) {
+    nextTambien.style.display = "none";
+  }
+});
+prevTambien.addEventListener("click", e => {
+  carouselTambien.scrollBy(-(widthTambien + gapTambien), 0);
+  if (carouselTambien.scrollLeft - widthTambien - gapTambien <= 0) {
+    prevTambien.style.display = "none";
+  }
+  if (!contentTambien.scrollWidth - widthTambien - gapTambien <= carouselTambien.scrollLeft + widthTambien) {
+    nextTambien.style.display = "flex";
+  }
+});
+
+let widthTambien = carouselTambien.offsetWidth;
+window.addEventListener("resize", e => (widthTambien = carouselTambien.offsetWidth));

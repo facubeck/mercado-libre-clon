@@ -894,6 +894,7 @@ main .numero-publicacion {
   padding: 20px 12px 10px;
   font-family: "Montserrat", "proxima-font", sans-serif;
   font-size: 13px;
+  margin-bottom: 15px;
 }
 main .numero-publicacion span {
   font-weight: 600;
@@ -914,38 +915,41 @@ main .numero-publicacion a {
   color: #3483fa;
 }
 
-section.productos-promocionados {
+.wrappers {
   font-family: "Montserrat", "proxima-font", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
 }
-section.productos-promocionados h1.titulo {
+.wrappers h1.titulo {
   font-size: 22px;
   color: RGBA(0, 0, 0, 0.9);
   font-weight: 500;
   display: inline-block;
 }
-section.productos-promocionados span.link {
+.wrappers span.link {
   font-size: 14px;
   color: #3483fa;
   cursor: pointer;
   margin-left: 5px;
 }
-section.productos-promocionados #wrapperPromo {
+.wrappers .wrapper {
   width: 100%;
   position: relative;
   margin: 20px auto 0px;
   margin-left: 5px;
 }
-section.productos-promocionados #wrapperPromo #carouselPromo {
+.wrappers .wrapper .carousel {
   height: 380px;
   overflow: auto;
   scroll-behavior: smooth;
   scrollbar-width: none;
 }
-section.productos-promocionados #wrapperPromo #carouselPromo::-webkit-scrollbar {
+.wrappers .wrapper .carousel::-webkit-scrollbar {
   height: 0;
 }
-section.productos-promocionados #wrapperPromo #prevPromo,
-section.productos-promocionados #wrapperPromo #nextPromo {
+.wrappers .wrapper .prev,
+.wrappers .wrapper .next {
   display: flex;
   justify-content: center;
   align-content: center;
@@ -957,25 +961,26 @@ section.productos-promocionados #wrapperPromo #nextPromo {
   position: absolute;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
 }
-section.productos-promocionados #wrapperPromo #prevPromo {
+.wrappers .wrapper .prev {
   top: 50%;
   left: -60px;
   transform: translate(50%, -50%);
   display: none;
 }
-section.productos-promocionados #wrapperPromo #nextPromo {
+.wrappers .wrapper .next {
   top: 50%;
   right: -60px;
   transform: translate(-50%, -50%);
 }
-section.productos-promocionados #wrapperPromo #contentPromo {
+.wrappers .wrapper .content {
   display: grid;
   grid-gap: 20px;
   grid-auto-flow: column;
   margin: auto;
   box-sizing: border-box;
 }
-section.productos-promocionados #wrapperPromo .item {
+.wrappers .wrapper .item {
+  background: #fff;
   width: 220px;
   height: 100%;
   font-family: "Montserrat", sans-serif;
@@ -984,29 +989,29 @@ section.productos-promocionados #wrapperPromo .item {
   border: 1px solid rgba(191, 186, 186, 0.329);
   border-radius: 4px;
 }
-section.productos-promocionados #wrapperPromo .item .item-info {
+.wrappers .wrapper .item .item-info {
   padding: 15px 15px 15px;
   display: flex;
   flex-direction: column;
   gap: 5px;
 }
-section.productos-promocionados #wrapperPromo .item .item-info .precio {
+.wrappers .wrapper .item .item-info .precio {
   font-size: 24px;
   font-weight: normal;
 }
-section.productos-promocionados #wrapperPromo .item .item-info h2 {
+.wrappers .wrapper .item .item-info h2 {
   font-size: 13px;
   color: #00a650;
   font-weight: 600;
 }
-section.productos-promocionados #wrapperPromo .item .item-info p {
+.wrappers .wrapper .item .item-info p {
   font-size: 12px;
   padding-bottom: 8px;
 }
-section.productos-promocionados #wrapperPromo .item:hover {
+.wrappers .wrapper .item:hover {
   box-shadow: 3px 3px 8px 1px rgba(191, 186, 186, 0.433);
 }
-section.productos-promocionados #wrapperPromo .item-image {
+.wrappers .wrapper .item-image {
   height: 220px;
   width: 218px;
   border-radius: 4px 4px 0 0;
