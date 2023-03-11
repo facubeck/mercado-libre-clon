@@ -894,7 +894,7 @@ main .numero-publicacion {
   padding: 20px 12px 10px;
   font-family: "Montserrat", "proxima-font", sans-serif;
   font-size: 13px;
-  margin-bottom: 15px;
+  margin-bottom: 15 px;
 }
 main .numero-publicacion span {
   font-weight: 600;
@@ -1015,6 +1015,49 @@ main .numero-publicacion a {
   height: 220px;
   width: 218px;
   border-radius: 4px 4px 0 0;
+}
+
+.ofertas {
+  height: 250px;
+  background: #8533AF;
+  display: flex;
+  position: relative;
+}
+.ofertas img {
+  height: 100%;
+}
+.ofertas .logo-container {
+  padding: 16px;
+  background: #fff;
+  position: absolute;
+  border-radius: 4px;
+  top: 50%;
+  left: 70px;
+  transform: translateY(-50%);
+}
+.ofertas img.logo {
+  width: 96px;
+  height: 64px;
+}
+.ofertas .textos {
+  font-family: "Montserrat", "proxima-font", sans-serif;
+  width: 100%;
+  padding: 60px 50px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.ofertas .textos h1 {
+  font-size: 26px;
+  font-weight: 600;
+}
+.ofertas .textos h2 {
+  font-size: 16px;
+  font-weight: 400;
+}
+.ofertas .textos h2 i {
+  font-size: 13px;
 }
 
 .all-container {
