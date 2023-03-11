@@ -536,13 +536,19 @@ main .main-container .left-side .preguntas-y-respuestas .preguntale-al-vendedor 
   padding: 15px 12px 13px 16px;
   width: 550px;
   border-radius: 5px;
-  border-color: rgba(0, 0, 0, 0.23);
-  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  outline: 2px transparent;
   font-size: 15px;
 }
 main .main-container .left-side .preguntas-y-respuestas .preguntale-al-vendedor form input::placeholder {
   font-size: 15px;
   color: rgba(0, 0, 0, 0.23);
+}
+main .main-container .left-side .preguntas-y-respuestas .preguntale-al-vendedor form input:focus {
+  outline: 2px solid #3483fa;
+  border-color: #3483fa;
+  position: relative;
+  translate: -50px, -1px;
 }
 main .main-container .left-side .preguntas-y-respuestas .preguntale-al-vendedor form button {
   background: #3483fa;
