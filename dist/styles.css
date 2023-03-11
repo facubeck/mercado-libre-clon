@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
 @font-face {
-  font-family: "proxima-font";
+  font-family: "proxima-font", sans-serif;
   src: url(fonts/Proxima-Nova-Font.otf);
 }
 @font-face {
@@ -38,7 +38,7 @@ body {
 header {
   background: #fff159;
   padding: 8px 0;
-  font-family: "proxima-font";
+  font-family: "Montserrat", "proxima-font", sans-serif;
   letter-spacing: 0.2px;
 }
 header .parte-arriba {
@@ -61,13 +61,13 @@ header .parte-arriba form input {
   width: 554px;
   padding-top: 6px;
   padding: 0 15px;
-  font-family: "proxima-font";
-  font-size: 16px;
+  font-family: "Montserrat", "proxima-font", sans-serif;
+  font-size: 14px;
   border: none;
   border-radius: 3px 0 0 3px;
 }
 header .parte-arriba form input::placeholder {
-  color: rgba(77, 75, 75, 0.533);
+  color: rgba(77, 75, 75, 0.356);
 }
 header .parte-arriba form input:focus {
   outline: none;
@@ -98,6 +98,7 @@ header .parte-arriba .publicidad-header {
   max-width: 340px;
   max-height: 39px;
   cursor: pointer;
+  padding-right: 15px;
 }
 header .parte-abajo {
   margin-top: 7px;
@@ -128,18 +129,19 @@ header .parte-abajo ul.nav-list .nav-section-left i {
   margin-top: 3px;
 }
 header .parte-abajo ul.nav-list .nav-section-left span:nth-of-type(1) {
-  font-size: 12px;
-  color: rgba(51, 51, 51, 0.6);
+  font-size: 10px;
+  color: rgba(51, 51, 51, 0.768627451);
 }
 header .parte-abajo ul.nav-list .nav-section-left span:nth-of-type(2) {
-  font-size: 14px;
+  font-size: 12px;
   color: #333;
 }
 header .parte-abajo ul.nav-list .nav-section-left:hover {
   outline: 1px solid rgba(111, 108, 108, 0.322);
 }
 header .parte-abajo ul.nav-list .nav-section-mid {
-  font-size: 14px;
+  font-size: 12px;
+  font-weight: 500;
   color: rgba(51, 51, 51, 0.6);
   margin-left: 50px;
 }
@@ -149,7 +151,7 @@ header .parte-abajo ul.nav-list .nav-section-mid ul {
   height: 100%;
 }
 header .parte-abajo ul.nav-list .nav-section-mid ul li {
-  margin: 0 10px;
+  margin: 0 8px;
   padding-top: 5px;
   cursor: pointer;
 }
@@ -161,13 +163,15 @@ header .parte-abajo ul.nav-list .nav-section-mid ul li:hover {
 }
 header .parte-abajo ul.nav-list .nav-section-right {
   margin-left: auto;
+  padding-right: 15px;
 }
 header .parte-abajo ul.nav-list .nav-section-right ul {
   display: flex;
   align-items: flex-end;
   height: 100%;
   color: #333;
-  font-size: 14px;
+  font-size: 12px;
+  font-weight: 400;
 }
 header .parte-abajo ul.nav-list .nav-section-right ul * {
   margin: 0 11px;
@@ -186,16 +190,16 @@ main {
   height: 100%;
 }
 main .top-text {
-  font-family: "proxima-font";
+  font-family: "Montserrat", "proxima-font", sans-serif;
   padding-top: 20px;
 }
 main .top-text div:nth-of-type(1) {
   display: flex;
-  font-size: 14px;
+  font-size: 12px;
 }
 main .top-text div:nth-of-type(1) p {
   font-weight: bold;
-  margin-right: 2px;
+  margin-right: 0px;
 }
 main .top-text div:nth-of-type(1) ul {
   display: flex;
@@ -207,14 +211,14 @@ main .top-text div:nth-of-type(1) ul li {
 }
 main .top-text div:nth-of-type(1) ul li:after {
   content: "-";
-  margin-left: 10px;
+  margin-left: 5px;
 }
 main .top-text div:nth-of-type(1) ul li:nth-last-child(1):after {
   content: "";
 }
 main .top-text div:nth-of-type(2) {
-  margin-top: 20px;
-  font-size: 14px;
+  margin-top: 25px;
+  font-size: 13px;
   display: flex;
   align-items: center;
 }
@@ -265,7 +269,7 @@ main .main-container {
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
   display: grid;
   grid-template: 100%/768px min-content;
-  font-family: "proxima-font";
+  font-family: "Montserrat", "proxima-font", sans-serif;
   gap: 45px;
   padding-bottom: 10px;
 }
@@ -277,10 +281,9 @@ main .main-container .left-side {
   height: 100%;
 }
 main .main-container .left-side h1 {
-  font-size: 24px;
-  font-weight: normal;
-  margin-bottom: 30px;
-  letter-spacing: 0.7px;
+  font-size: 21px;
+  font-weight: 400;
+  margin-bottom: 25px;
 }
 main .main-container .left-side .main-photo {
   display: flex;
@@ -405,7 +408,7 @@ main .main-container .left-side .mas-publicaciones #wrapper .item-image {
   border-radius: 4px 4px 0 0;
 }
 main .main-container .left-side .mas-publicaciones #texto-final {
-  font-family: "proxima-font";
+  font-family: "Montserrat", "proxima-font", sans-serif;
   color: #3483fa;
   cursor: pointer;
   text-decoration: none;
@@ -413,14 +416,13 @@ main .main-container .left-side .mas-publicaciones #texto-final {
   letter-spacing: 0.4px;
 }
 main .main-container .left-side .caracteristicas-principales h1 {
-  font-size: 24px;
-  font-weight: normal;
+  font-size: 22px;
+  margin-top: 20px;
   margin-bottom: 30px;
-  letter-spacing: 0.5px;
 }
 main .main-container .left-side .caracteristicas-principales table {
   width: 100%;
-  font-family: "proxima-font", sans-serif;
+  font-family: "Montserrat", "proxima-font", sans-serif;
   border-collapse: collapse;
 }
 main .main-container .left-side .caracteristicas-principales table tr:nth-of-type(even) th {
@@ -444,18 +446,20 @@ main .main-container .left-side .caracteristicas-principales table tr:nth-last-o
 main .main-container .left-side .caracteristicas-principales table th {
   display: flex;
   justify-content: flex-start;
-  padding: 20px 20px 15px 16px;
+  padding: 20px 20px 18px 16px;
   background: #ebebeb;
   width: 193px;
-  font-weight: normal;
+  font-weight: 500;
+  font-size: 14px;
 }
 main .main-container .left-side .caracteristicas-principales table td {
   background: #f5f5f5;
   width: 100%;
   padding-left: 25px;
+  font-size: 14px;
 }
 main .main-container .left-side .caracteristicas-principales h3 {
-  font-size: 21px;
+  font-size: 18px;
   font-weight: normal;
   margin: 30px 0;
   letter-spacing: 0.5px;
@@ -464,11 +468,13 @@ main .main-container .left-side .caracteristicas-principales .otras-caract {
   display: flex;
   width: 100%;
   flex-wrap: wrap;
-  margin-bottom: 30px;
+  margin-bottom: 35px;
 }
 main .main-container .left-side .caracteristicas-principales .otras-caract p {
+  font-size: 12px;
   flex: 1 0 50%;
   margin-bottom: 18px;
+  font-weight: 600;
 }
 main .main-container .left-side .caracteristicas-principales .otras-caract p span {
   font-weight: normal;
@@ -476,10 +482,14 @@ main .main-container .left-side .caracteristicas-principales .otras-caract p spa
 main .main-container .left-side .descripcion {
   margin: 30px 0 35px;
 }
+main .main-container .left-side .descripcion h1 {
+  font-weight: 500;
+}
 main .main-container .left-side .descripcion p {
-  font-family: "proxima-font", sans-serif;
-  font-size: 20px;
-  color: #7c7b7b;
+  font-family: "Montserrat", "proxima-font", sans-serif;
+  font-size: 18px;
+  color: #666666;
+  font-weight: 400;
   line-height: 26px;
 }
 main .main-container .left-side .descripcion:after {
@@ -487,6 +497,9 @@ main .main-container .left-side .descripcion:after {
 }
 main .main-container .left-side .preguntas-y-respuestas {
   margin-top: 50px;
+}
+main .main-container .left-side .preguntas-y-respuestas h1 {
+  font-weight: 500;
 }
 main .main-container .left-side .preguntas-y-respuestas h2 {
   font-size: 16px;
@@ -505,7 +518,7 @@ main .main-container .left-side .preguntas-y-respuestas .que-queres-saber ul li 
   padding: 9px 12px;
   background: #e3edfb;
   color: #3483fa;
-  font-family: "proxima-font", sans-serif;
+  font-family: "Montserrat", "proxima-font", sans-serif;
   font-size: 13px;
   font-weight: 600;
   border-radius: 4px;
@@ -543,12 +556,12 @@ main .main-container .left-side .preguntas-y-respuestas .preguntale-al-vendedor 
 main .main-container .left-side .preguntas-y-respuestas .preguntale-al-vendedor p {
   color: RGBA(0, 0, 0, 0.55);
   font-size: 13px;
-  font-family: "proxima-font", sans-serif;
+  font-family: "Montserrat", "proxima-font", sans-serif;
   margin: 12px 8px 8px 5px;
 }
 main .main-container .left-side .preguntas-y-respuestas .preguntale-al-vendedor h4 {
   color: RGBA(0, 0, 0, 0.5);
-  font-family: "proxima-font", sans-serif;
+  font-family: "Montserrat", "proxima-font", sans-serif;
   font-size: 14px;
   margin: 30px 0 0 0;
 }
@@ -707,7 +720,8 @@ main .main-container .right-side .info-vendedor .subtexto {
   align-content: flex-start;
   gap: 3px;
 }
-main .main-container .right-side .info-vendedor .subtexto i, main .main-container .right-side .info-vendedor .subtexto h4 {
+main .main-container .right-side .info-vendedor .subtexto i,
+main .main-container .right-side .info-vendedor .subtexto h4 {
   color: RGB(0, 166, 80);
 }
 main .main-container .right-side .info-vendedor .subtexto i {
@@ -776,7 +790,8 @@ main .main-container .right-side .info-vendedor .info-termometro .item p {
   font-size: 10px;
   text-align: center;
 }
-main .main-container .right-side .info-vendedor .info-termometro .item:nth-of-type(2):before, main .main-container .right-side .info-vendedor .info-termometro .item:nth-of-type(2):after {
+main .main-container .right-side .info-vendedor .info-termometro .item:nth-of-type(2):before,
+main .main-container .right-side .info-vendedor .info-termometro .item:nth-of-type(2):after {
   content: "";
   position: absolute;
   background: rgba(0, 0, 0, 0.087);
