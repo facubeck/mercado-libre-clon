@@ -93,11 +93,15 @@ window.addEventListener("resize", e => (widthTambien = carouselTambien.offsetWid
 const foto1 = document.getElementById('foto1');
 const foto2 = document.getElementById('foto2');
 const mainPhoto = document.getElementById('mainPhoto');
+const source = mainPhoto.getAttribute('src');
 
 function ponerFoto1() {
   mainPhoto.src = 'images/mr-morale-cover.webp';
+  foto1.style.outline = '1px solid rgb(22, 22, 233)';
+  foto2.style.outline = '1px solid rgba(77, 75, 75, 0.396)';
 }
 function ponerFoto2() {
-  mainPhoto.src = 'images/maniac-records.webp'
+  mainPhoto.src = 'images/maniac-records.webp';
+  foto1.style.outline = '1px solid rgba(77, 75, 75, 0.396)';
+  foto2.style.outline = '1px solid rgb(22, 22, 233)'
 }
-

@@ -315,9 +315,6 @@ main .main-container .left-side .side-photos div {
   align-items: center;
   justify-content: center;
 }
-main .main-container .left-side .side-photos .outline-azul {
-  outline: 1px solid rgb(22, 22, 233);
-}
 main .main-container .left-side .side-photos img {
   width: 100%;
   border-radius: 2px;
