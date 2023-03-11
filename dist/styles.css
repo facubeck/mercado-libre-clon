@@ -912,4 +912,107 @@ main .numero-publicacion span:after {
 main .numero-publicacion a {
   text-decoration: none;
   color: #3483fa;
+}
+
+section.productos-promocionados {
+  font-family: "Montserrat", "proxima-font", sans-serif;
+}
+section.productos-promocionados h1.titulo {
+  font-size: 22px;
+  color: RGBA(0, 0, 0, 0.9);
+  font-weight: 500;
+  display: inline-block;
+}
+section.productos-promocionados span.link {
+  font-size: 14px;
+  color: #3483fa;
+  cursor: pointer;
+  margin-left: 5px;
+}
+section.productos-promocionados #wrapperPromo {
+  width: 100%;
+  position: relative;
+  margin: 20px auto 0px;
+  margin-left: 5px;
+}
+section.productos-promocionados #wrapperPromo #carouselPromo {
+  height: 380px;
+  overflow: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+section.productos-promocionados #wrapperPromo #carouselPromo::-webkit-scrollbar {
+  height: 0;
+}
+section.productos-promocionados #wrapperPromo #prevPromo,
+section.productos-promocionados #wrapperPromo #nextPromo {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background: white;
+  border: none;
+  padding: 8px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+}
+section.productos-promocionados #wrapperPromo #prevPromo {
+  top: 50%;
+  left: -60px;
+  transform: translate(50%, -50%);
+  display: none;
+}
+section.productos-promocionados #wrapperPromo #nextPromo {
+  top: 50%;
+  right: -60px;
+  transform: translate(-50%, -50%);
+}
+section.productos-promocionados #wrapperPromo #contentPromo {
+  display: grid;
+  grid-gap: 20px;
+  grid-auto-flow: column;
+  margin: auto;
+  box-sizing: border-box;
+}
+section.productos-promocionados #wrapperPromo .item {
+  width: 220px;
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 3px 3px 4px 1px rgba(191, 186, 186, 0.129);
+  cursor: pointer;
+  border: 1px solid rgba(191, 186, 186, 0.329);
+  border-radius: 4px;
+}
+section.productos-promocionados #wrapperPromo .item .item-info {
+  padding: 15px 15px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+section.productos-promocionados #wrapperPromo .item .item-info .precio {
+  font-size: 24px;
+  font-weight: normal;
+}
+section.productos-promocionados #wrapperPromo .item .item-info h2 {
+  font-size: 13px;
+  color: #00a650;
+  font-weight: 600;
+}
+section.productos-promocionados #wrapperPromo .item .item-info p {
+  font-size: 12px;
+  padding-bottom: 8px;
+}
+section.productos-promocionados #wrapperPromo .item:hover {
+  box-shadow: 3px 3px 8px 1px rgba(191, 186, 186, 0.433);
+}
+section.productos-promocionados #wrapperPromo .item-image {
+  height: 220px;
+  width: 218px;
+  border-radius: 4px 4px 0 0;
+}
+
+.all-container {
+  width: 1180px;
+  margin: 0 auto;
 }/*# sourceMappingURL=styles.css.map */

@@ -26,3 +26,33 @@ prev.addEventListener("click", e => {
 
 let width = carousel.offsetWidth;
 window.addEventListener("resize", e => (width = carousel.offsetWidth));
+
+// Segundo Carousel
+const gapPromo = 27;
+
+const carouselPromo = document.getElementById("carouselPromo"),
+  contentPromo = document.getElementById("contentPromo"),
+  nextPromo = document.getElementById("nextPromo"),
+  prevPromo = document.getElementById("prevPromo");
+
+nextPromo.addEventListener("click", e => {
+  carouselPromo.scrollBy(widthPromo + gapPromo, 0);
+  if (carouselPromo.scrollWidth !== 0) {
+    prevPromo.style.display = "flex";
+  }
+  if (contentPromo.scrollWidth - widthPromo - gapPromo <= carouselPromo.scrollLeft + widthPromo) {
+    nextPromo.style.display = "none";
+  }
+});
+prevPromo.addEventListener("click", e => {
+  carouselPromo.scrollBy(-(widthPromo + gapPromo), 0);
+  if (carouselPromo.scrollLeft - widthPromo - gapPromo <= 0) {
+    prevPromo.style.display = "none";
+  }
+  if (!contentPromo.scrollWidth - widthPromo - gapPromo <= carouselPromo.scrollLeft + widthPromo) {
+    nextPromo.style.display = "flex";
+  }
+});
+
+let widthPromo = carouselPromo.offsetWidth;
+window.addEventListener("resize", e => (widthPromo = carouselPromo.offsetWidth));
