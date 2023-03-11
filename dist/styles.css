@@ -533,12 +533,14 @@ main .main-container .left-side .preguntas-y-respuestas .preguntale-al-vendedor 
 }
 main .main-container .left-side .preguntas-y-respuestas .preguntale-al-vendedor form input {
   min-height: 48px;
+  height: 100%;
   padding: 15px 12px 13px 16px;
   width: 550px;
   border-radius: 5px;
   border: 1px solid rgba(0, 0, 0, 0.23);
   outline: 2px transparent;
   font-size: 15px;
+  overflow-wrap: break-word;
 }
 main .main-container .left-side .preguntas-y-respuestas .preguntale-al-vendedor form input::placeholder {
   font-size: 15px;
@@ -568,7 +570,7 @@ main .main-container .left-side .preguntas-y-respuestas .preguntale-al-vendedor 
 main .main-container .left-side .preguntas-y-respuestas .preguntale-al-vendedor h4 {
   color: RGBA(0, 0, 0, 0.5);
   font-family: "Montserrat", "proxima-font", sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   margin: 30px 0 0 0;
 }
 main .main-container .left-side .preguntas-y-respuestas:after {
@@ -883,4 +885,31 @@ main .main-container .right-side .rs-container h2 {
 main .main-container.container {
   max-width: 1180px;
   padding-left: 0;
+}
+main .numero-publicacion {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  padding-right: 15px;
+  padding: 20px 12px 10px;
+  font-family: "Montserrat", "proxima-font", sans-serif;
+  font-size: 13px;
+}
+main .numero-publicacion span {
+  font-weight: 600;
+  margin-left: 4px;
+  position: relative;
+}
+main .numero-publicacion span:after {
+  content: "";
+  position: absolute;
+  height: 80%;
+  width: 1px;
+  background: rgba(0, 0, 0, 0.25);
+  right: -10px;
+  top: 2px;
+}
+main .numero-publicacion a {
+  text-decoration: none;
+  color: #3483fa;
 }/*# sourceMappingURL=styles.css.map */
