@@ -354,6 +354,10 @@ main .main-container .left-side .mas-publicaciones #wrapper #next {
   position: absolute;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
 }
+main .main-container .left-side .mas-publicaciones #wrapper #prev:hover,
+main .main-container .left-side .mas-publicaciones #wrapper #next:hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 8px 16px 0px;
+}
 main .main-container .left-side .mas-publicaciones #wrapper #prev {
   top: 50%;
   left: -60px;
@@ -560,6 +564,11 @@ main .main-container .left-side .preguntas-y-respuestas .preguntale-al-vendedor 
   color: #fff;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  transition: all ease 300ms;
+}
+main .main-container .left-side .preguntas-y-respuestas .preguntale-al-vendedor form button:hover, main .main-container .left-side .preguntas-y-respuestas .preguntale-al-vendedor form button:focus {
+  filter: brightness(0.85);
 }
 main .main-container .left-side .preguntas-y-respuestas .preguntale-al-vendedor p {
   color: RGBA(0, 0, 0, 0.55);
@@ -960,6 +969,10 @@ main .numero-publicacion a {
   cursor: pointer;
   position: absolute;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+}
+.wrappers .wrapper .prev:hover,
+.wrappers .wrapper .next:hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 8px 16px 0px;
 }
 .wrappers .wrapper .prev {
   top: 50%;
