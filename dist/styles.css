@@ -62,7 +62,7 @@ header .parte-arriba form input {
   padding-top: 6px;
   padding: 0 15px;
   font-family: "Montserrat", "proxima-font", sans-serif;
-  font-size: 14px;
+  font-size: 0.875rem;
   border: none;
   border-radius: 3px 0 0 3px;
 }
@@ -81,7 +81,7 @@ header .parte-arriba form button {
   cursor: pointer;
 }
 header .parte-arriba form button i {
-  font-size: 15px;
+  font-size: 0.938rem;
   color: rgb(77, 75, 75);
   position: relative;
 }
@@ -124,23 +124,23 @@ header .parte-abajo ul.nav-list .nav-section-left {
 header .parte-abajo ul.nav-list .nav-section-left i {
   grid-row: 1/3;
   grid-column: 1/2;
-  font-size: 23px;
+  font-size: 1.438rem;
   color: #333;
   margin-top: 3px;
 }
 header .parte-abajo ul.nav-list .nav-section-left span:nth-of-type(1) {
-  font-size: 10px;
+  font-size: 0.625rem;
   color: rgba(51, 51, 51, 0.768627451);
 }
 header .parte-abajo ul.nav-list .nav-section-left span:nth-of-type(2) {
-  font-size: 12px;
+  font-size: 0.75rem;
   color: #333;
 }
 header .parte-abajo ul.nav-list .nav-section-left:hover {
   outline: 1px solid rgba(111, 108, 108, 0.322);
 }
 header .parte-abajo ul.nav-list .nav-section-mid {
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 500;
   color: rgba(51, 51, 51, 0.6);
   margin-left: 50px;
@@ -156,7 +156,7 @@ header .parte-abajo ul.nav-list .nav-section-mid ul li {
   cursor: pointer;
 }
 header .parte-abajo ul.nav-list .nav-section-mid ul li:nth-of-type(1) > i {
-  font-size: 10px;
+  font-size: 0.625rem;
 }
 header .parte-abajo ul.nav-list .nav-section-mid ul li:hover {
   color: #333;
@@ -170,7 +170,7 @@ header .parte-abajo ul.nav-list .nav-section-right ul {
   align-items: flex-end;
   height: 100%;
   color: #333;
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 400;
 }
 header .parte-abajo ul.nav-list .nav-section-right ul * {
@@ -181,7 +181,7 @@ header .parte-abajo ul.nav-list .nav-section-right ul *:hover {
   color: black;
 }
 header .parte-abajo ul.nav-list .nav-section-right ul i {
-  font-size: 18px;
+  font-size: 1.125rem;
   margin-right: 0;
 }
 
@@ -195,7 +195,7 @@ main .top-text {
 }
 main .top-text div:nth-of-type(1) {
   display: flex;
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 main .top-text div:nth-of-type(1) p {
   font-weight: bold;
@@ -218,7 +218,7 @@ main .top-text div:nth-of-type(1) ul li:nth-last-child(1):after {
 }
 main .top-text div:nth-of-type(2) {
   margin-top: 25px;
-  font-size: 13px;
+  font-size: 0.813rem;
   display: flex;
   align-items: center;
 }
@@ -241,7 +241,7 @@ main .top-text div:nth-of-type(2) a {
 }
 main .top-text div:nth-of-type(2) i {
   margin-inline: 5px;
-  font-size: 10px;
+  font-size: 0.625rem;
 }
 main .top-text div:nth-of-type(2) div {
   margin-left: auto;
@@ -281,7 +281,7 @@ main .main-container .left-side {
   height: 100%;
 }
 main .main-container .left-side h1 {
-  font-size: 21px;
+  font-size: 1.313rem;
   font-weight: 400;
   margin-bottom: 25px;
 }
@@ -390,16 +390,16 @@ main .main-container .left-side .mas-publicaciones #wrapper .item .item-info {
   gap: 5px;
 }
 main .main-container .left-side .mas-publicaciones #wrapper .item .item-info .precio {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: normal;
 }
 main .main-container .left-side .mas-publicaciones #wrapper .item .item-info h2 {
-  font-size: 13px;
+  font-size: 0.813rem;
   color: #00a650;
   font-weight: 600;
 }
 main .main-container .left-side .mas-publicaciones #wrapper .item .item-info p {
-  font-size: 13px;
+  font-size: 0.813rem;
 }
 main .main-container .left-side .mas-publicaciones #wrapper .item:hover {
   box-shadow: 3px 3px 8px 1px rgba(191, 186, 186, 0.433);
@@ -414,11 +414,11 @@ main .main-container .left-side .mas-publicaciones #texto-final {
   color: #3483fa;
   cursor: pointer;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 0.875rem;
   letter-spacing: 0.4px;
 }
 main .main-container .left-side .caracteristicas-principales h1 {
-  font-size: 22px;
+  font-size: 1.375rem;
   margin-top: 20px;
   margin-bottom: 30px;
 }
@@ -452,16 +452,16 @@ main .main-container .left-side .caracteristicas-principales table th {
   background: #ebebeb;
   width: 193px;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 main .main-container .left-side .caracteristicas-principales table td {
   background: #f5f5f5;
   width: 100%;
   padding-left: 25px;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 main .main-container .left-side .caracteristicas-principales h3 {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: normal;
   margin: 30px 0;
   letter-spacing: 0.5px;
@@ -473,7 +473,7 @@ main .main-container .left-side .caracteristicas-principales .otras-caract {
   margin-bottom: 35px;
 }
 main .main-container .left-side .caracteristicas-principales .otras-caract p {
-  font-size: 12px;
+  font-size: 0.75rem;
   flex: 1 0 50%;
   margin-bottom: 18px;
   font-weight: 600;
@@ -489,7 +489,7 @@ main .main-container .left-side .descripcion h1 {
 }
 main .main-container .left-side .descripcion p {
   font-family: "Montserrat", "proxima-font", sans-serif;
-  font-size: 18px;
+  font-size: 1.125rem;
   color: #666666;
   font-weight: 400;
   line-height: 26px;
@@ -504,7 +504,7 @@ main .main-container .left-side .preguntas-y-respuestas h1 {
   font-weight: 500;
 }
 main .main-container .left-side .preguntas-y-respuestas h2 {
-  font-size: 16px;
+  font-size: 1rem;
   letter-spacing: 0.2px;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
@@ -521,7 +521,7 @@ main .main-container .left-side .preguntas-y-respuestas .que-queres-saber ul li 
   background: #e3edfb;
   color: #3483fa;
   font-family: "Montserrat", "proxima-font", sans-serif;
-  font-size: 13px;
+  font-size: 0.813rem;
   font-weight: 600;
   border-radius: 4px;
   cursor: pointer;
@@ -541,11 +541,11 @@ main .main-container .left-side .preguntas-y-respuestas .preguntale-al-vendedor 
   border-radius: 5px;
   border: 1px solid rgba(0, 0, 0, 0.23);
   outline: 2px transparent;
-  font-size: 15px;
+  font-size: 0.938rem;
   overflow-wrap: break-word;
 }
 main .main-container .left-side .preguntas-y-respuestas .preguntale-al-vendedor form input::placeholder {
-  font-size: 15px;
+  font-size: 0.938rem;
   color: rgba(0, 0, 0, 0.23);
 }
 main .main-container .left-side .preguntas-y-respuestas .preguntale-al-vendedor form input:focus {
@@ -570,14 +570,14 @@ main .main-container .left-side .preguntas-y-respuestas .preguntale-al-vendedor 
 }
 main .main-container .left-side .preguntas-y-respuestas .preguntale-al-vendedor p {
   color: RGBA(0, 0, 0, 0.55);
-  font-size: 13px;
+  font-size: 0.813rem;
   font-family: "Montserrat", "proxima-font", sans-serif;
   margin: 12px 8px 8px 5px;
 }
 main .main-container .left-side .preguntas-y-respuestas .preguntale-al-vendedor h4 {
   color: RGBA(0, 0, 0, 0.5);
   font-family: "Montserrat", "proxima-font", sans-serif;
-  font-size: 12px;
+  font-size: 0.75rem;
   margin: 30px 0 0 0;
 }
 main .main-container .left-side .preguntas-y-respuestas:after {
@@ -608,7 +608,7 @@ main .main-container .right-side .info {
   font-family: "Montserrat", "proxima-bold", sans-serif;
 }
 main .main-container .right-side .info span:nth-of-type(1) {
-  font-size: 13px;
+  font-size: 0.813rem;
   color: RGBA(0, 0, 0, 0.55);
 }
 main .main-container .right-side .info .titulo {
@@ -617,28 +617,28 @@ main .main-container .right-side .info .titulo {
   margin-top: 10px;
 }
 main .main-container .right-side .info .titulo h1 {
-  font-size: 19px;
+  font-size: 1.188rem;
   color: RGBA(0, 0, 0, 0.9);
 }
 main .main-container .right-side .info .titulo i {
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #3483fa;
   font-weight: 900;
 }
 main .main-container .right-side .info h3.precio {
-  font-size: 34px;
+  font-size: 2.125rem;
   font-weight: 400;
   margin-top: 20px;
 }
 main .main-container .right-side .info h3.subprecio {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 1rem;
 }
 main .main-container .right-side .info h3.subprecio sup {
-  font-size: 10px;
+  font-size: 0.625rem;
 }
 main .main-container .right-side .info h3#subtexto-precio {
-  font-size: 12px;
+  font-size: 0.75rem;
   color: #3483fa;
   cursor: pointer;
   margin-top: 10px;
@@ -655,16 +655,16 @@ main .main-container .right-side .info .info-grid h4 {
   color: #00a650;
 }
 main .main-container .right-side .info .info-grid i {
-  font-size: 20px;
+  font-size: 1.25rem;
   grid-row: 1/2;
 }
 main .main-container .right-side .info .info-grid h4 {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 500;
   grid-column: 2/3;
 }
 main .main-container .right-side .info .info-grid p {
-  font-size: 12px;
+  font-size: 0.75rem;
   color: #3483fa;
   cursor: pointer;
   margin-top: 5px;
@@ -692,7 +692,7 @@ main .main-container .right-side .info .botones button {
   padding: 15px 0;
   font-weight: 600;
   cursor: pointer;
-  font-size: 14px;
+  font-size: 0.875rem;
   transition: all ease 300ms;
 }
 main .main-container .right-side .info .botones button:nth-of-type(1) {
@@ -716,7 +716,7 @@ main .main-container .right-side .info .beneficios .beneficio {
   gap: 10px;
 }
 main .main-container .right-side .info .beneficios .beneficio p {
-  font-size: 12px;
+  font-size: 0.75rem;
   color: rgba(0, 0, 0, 0.75);
   line-height: 18px;
 }
@@ -741,14 +741,14 @@ main .main-container .right-side .info-vendedor .subtexto h4 {
 }
 main .main-container .right-side .info-vendedor .subtexto i {
   grid-row: 1/span 2;
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 main .main-container .right-side .info-vendedor .subtexto h4 {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 500;
 }
 main .main-container .right-side .info-vendedor .subtexto p {
-  font-size: 13px;
+  font-size: 0.813rem;
   color: rgba(0, 0, 0, 0.55);
 }
 main .main-container .right-side .info-vendedor .termometro {
@@ -795,14 +795,14 @@ main .main-container .right-side .info-vendedor .info-termometro .item {
   position: relative;
 }
 main .main-container .right-side .info-vendedor .info-termometro .item .titulo h4 {
-  font-size: 22px;
+  font-size: 1.375rem;
   font-weight: 500;
 }
 main .main-container .right-side .info-vendedor .info-termometro .item img {
   width: 28px;
 }
 main .main-container .right-side .info-vendedor .info-termometro .item p {
-  font-size: 10px;
+  font-size: 0.625rem;
   text-align: center;
 }
 main .main-container .right-side .info-vendedor .info-termometro .item:nth-of-type(2):before,
@@ -820,7 +820,7 @@ main .main-container .right-side .info-vendedor .info-termometro .item:nth-of-ty
   right: 0;
 }
 main .main-container .right-side .info-vendedor h3#subtitulo {
-  font-size: 12px;
+  font-size: 0.75rem;
   color: #3483fa;
   cursor: pointer;
   margin-top: 10px;
@@ -832,11 +832,11 @@ main .main-container .right-side .mas-info h2.titulo {
 }
 main .main-container .right-side .mas-info p.subtexto {
   color: RGBA(0, 0, 0, 0.55);
-  font-size: 13px;
+  font-size: 0.813rem;
   margin-bottom: 30px;
 }
 main .main-container .right-side .mas-info h3.conocer-mas {
-  font-size: 12px;
+  font-size: 0.75rem;
   color: #3483fa;
   cursor: pointer;
   margin-top: 10px;
@@ -852,7 +852,7 @@ main .main-container .right-side .mas-info .linea {
   left: -17px;
 }
 main .main-container .right-side .mas-info h3.subtitulo {
-  font-size: 14px;
+  font-size: 0.875rem;
   color: rgba(0, 0, 0, 0.9);
   font-weight: 500;
   margin-bottom: 15px;
@@ -885,7 +885,7 @@ main .main-container .right-side .rs-container {
   border-radius: 8px;
 }
 main .main-container .right-side .rs-container h2 {
-  font-size: 16px;
+  font-size: 1rem;
   color: black;
   font-weight: 400;
 }
@@ -900,7 +900,7 @@ main .numero-publicacion {
   padding-right: 15px;
   padding: 20px 12px 10px;
   font-family: "Montserrat", "proxima-font", sans-serif;
-  font-size: 13px;
+  font-size: 0.813rem;
   margin-bottom: 15 px;
 }
 main .numero-publicacion span {
@@ -929,13 +929,13 @@ main .numero-publicacion a {
   gap: 50px;
 }
 .wrappers h1.titulo {
-  font-size: 22px;
+  font-size: 1.375rem;
   color: RGBA(0, 0, 0, 0.9);
   font-weight: 500;
   display: inline-block;
 }
 .wrappers span.link {
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #3483fa;
   cursor: pointer;
   margin-left: 5px;
@@ -1007,16 +1007,16 @@ main .numero-publicacion a {
   gap: 5px;
 }
 .wrappers .wrapper .item .item-info .precio {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: normal;
 }
 .wrappers .wrapper .item .item-info h2 {
-  font-size: 13px;
+  font-size: 0.813rem;
   color: #00a650;
   font-weight: 600;
 }
 .wrappers .wrapper .item .item-info p {
-  font-size: 12px;
+  font-size: 0.75rem;
   padding-bottom: 8px;
 }
 .wrappers .wrapper .item:hover {
@@ -1061,16 +1061,16 @@ main .numero-publicacion a {
   gap: 30px;
 }
 .ofertas .textos h1 {
-  font-size: 26px;
+  font-size: 1.625rem;
   font-weight: 600;
 }
 .ofertas .textos h2 {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   cursor: pointer;
 }
 .ofertas .textos h2 i {
-  font-size: 13px;
+  font-size: 0.813rem;
 }
 
 .all-container {
@@ -1094,13 +1094,13 @@ footer ul.footer-nav {
   gap: 20px;
 }
 footer ul.footer-nav li.footer-item {
-  font-size: 11px;
+  font-size: 0.688rem;
   font-weight: 500;
   color: black;
   cursor: pointer;
 }
 footer h3 {
-  font-size: 11px;
+  font-size: 0.688rem;
   color: #999999;
   font-weight: 500;
   padding-left: 0px;
@@ -1115,7 +1115,7 @@ footer button {
   background: #fff;
   border: 1px solid rgba(0, 0, 0, 0.087);
   border-bottom-color: #fff;
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 400;
   font-family: Arial, "Montserrat", sans-serif;
   color: #666666;
@@ -1123,7 +1123,21 @@ footer button {
   cursor: pointer;
 }
 footer button i {
-  font-size: 11px;
+  font-size: 0.688rem;
   color: black;
   font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 13px;
+  }
+  .container {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 0;
+  }
+  header .parte-arriba .publicidad-header {
+    display: none;
+  }
 }/*# sourceMappingURL=styles.css.map */
