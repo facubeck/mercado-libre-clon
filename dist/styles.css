@@ -631,6 +631,26 @@ main .main-container .right-side .info .titulo i {
   color: #3483fa;
   font-weight: 900;
 }
+main .main-container .right-side .info .foto-container {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+main .main-container .right-side .info .foto-container .mobile-photo {
+  margin: 10px;
+  width: 80%;
+}
+main .main-container .right-side .info .foto-container i {
+  background: rgba(0, 0, 0, 0.1);
+  position: absolute;
+  padding: 8px;
+  border-radius: 50%;
+  right: 10px;
+  bottom: 0;
+  cursor: pointer;
+}
 main .main-container .right-side .info h3.precio {
   font-size: 2.125rem;
   font-weight: 400;
