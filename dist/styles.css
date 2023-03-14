@@ -631,18 +631,18 @@ main .main-container .right-side .info .titulo i {
   color: #3483fa;
   font-weight: 900;
 }
-main .main-container .right-side .info .foto-container {
-  display: flex;
+main .main-container .right-side .info .mobile-main-foto {
+  display: none;
   position: relative;
   align-items: center;
   justify-content: center;
   margin: 20px 0;
 }
-main .main-container .right-side .info .foto-container .mobile-photo {
+main .main-container .right-side .info .mobile-main-foto .mobile-photo {
   margin: 10px;
   width: 80%;
 }
-main .main-container .right-side .info .foto-container i {
+main .main-container .right-side .info .mobile-main-foto i {
   background: rgba(0, 0, 0, 0.1);
   position: absolute;
   padding: 8px;
@@ -1248,6 +1248,9 @@ footer button i {
   }
   main .main-container .right-side {
     align-items: center;
+  }
+  main .main-container .right-side .info .mobile-main-foto {
+    display: flex;
   }
   main .main-container .right-side .rs-container {
     width: 100%;
