@@ -778,6 +778,88 @@ main .main-container .right-side .info .linea {
   bottom: 0;
   left: -17px;
 }
+main .main-container .right-side .mobile-wrapper {
+  font-family: "Montserrat", "proxima-font", sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px !important;
+  gap: 50px;
+}
+main .main-container .right-side .mobile-wrapper h1.titulo {
+  font-size: 1rem;
+  color: RGBA(0, 0, 0, 0.9);
+  font-weight: 500;
+  display: inline-block;
+}
+main .main-container .right-side .mobile-wrapper span.link {
+  font-size: 0.875rem;
+  color: #3483fa;
+  cursor: pointer;
+  margin-left: 5px;
+}
+main .main-container .right-side .mobile-wrapper .wrapper {
+  width: 100%;
+  position: relative;
+  margin: 20px auto 0px;
+  margin-left: 5px;
+}
+main .main-container .right-side .mobile-wrapper .wrapper .carousel {
+  height: 380px;
+  overflow: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+main .main-container .right-side .mobile-wrapper .wrapper .carousel::-webkit-scrollbar {
+  height: 0;
+}
+main .main-container .right-side .mobile-wrapper .wrapper .prev,
+main .main-container .right-side .mobile-wrapper .wrapper .next {
+  display: none !important;
+}
+main .main-container .right-side .mobile-wrapper .wrapper .content {
+  display: grid;
+  grid-gap: 20px;
+  grid-auto-flow: column;
+  margin: auto;
+  box-sizing: border-box;
+}
+main .main-container .right-side .mobile-wrapper .wrapper .item {
+  background: #fff;
+  width: 220px;
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 3px 3px 4px 1px rgba(191, 186, 186, 0.129);
+  cursor: pointer;
+  border: 1px solid rgba(191, 186, 186, 0.329);
+  border-radius: 4px;
+}
+main .main-container .right-side .mobile-wrapper .wrapper .item .item-info {
+  padding: 15px 15px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+main .main-container .right-side .mobile-wrapper .wrapper .item .item-info .precio {
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+main .main-container .right-side .mobile-wrapper .wrapper .item .item-info h2 {
+  font-size: 0.813rem;
+  color: #00a650;
+  font-weight: 600;
+}
+main .main-container .right-side .mobile-wrapper .wrapper .item .item-info p {
+  font-size: 0.75rem;
+  padding-bottom: 8px;
+}
+main .main-container .right-side .mobile-wrapper .wrapper .item:hover {
+  box-shadow: 3px 3px 8px 1px rgba(191, 186, 186, 0.433);
+}
+main .main-container .right-side .mobile-wrapper .wrapper .item-image {
+  height: 220px;
+  width: 218px;
+  border-radius: 4px 4px 0 0;
+}
 main .main-container .right-side .info-vendedor {
   padding: 32px 16px !important;
 }
@@ -1311,7 +1393,9 @@ footer button i {
   main .main-container.container {
     padding-left: 15px;
   }
-  .wrappers, .ofertas, footer {
+  .wrappers,
+  .ofertas,
+  footer {
     display: none;
   }
 }/*# sourceMappingURL=styles.css.map */
