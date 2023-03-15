@@ -636,11 +636,11 @@ main .main-container .right-side .info .mobile-main-foto {
   position: relative;
   align-items: center;
   justify-content: center;
-  margin: 20px 0;
+  margin: 15px 0;
 }
 main .main-container .right-side .info .mobile-main-foto .mobile-photo {
   margin: 10px;
-  width: 80%;
+  width: 60%;
 }
 main .main-container .right-side .info .mobile-main-foto i {
   background: rgba(0, 0, 0, 0.1);
@@ -1156,14 +1156,11 @@ footer button i {
 
 @media (max-width: 768px) {
   html {
-    font-size: 13px;
+    font-size: 14px;
   }
   .container {
     width: 100%;
     max-width: 100%;
-    padding-inline: 15px;
-  }
-  .ls-container {
     padding-inline: 15px;
   }
   header .parte-arriba {
@@ -1246,16 +1243,28 @@ footer button i {
   main .main-container .left-side .ls-container {
     width: 100%;
   }
+  main .main-container .left-side .ls-container:after {
+    left: -15px;
+    width: 106%;
+  }
   main .main-container .right-side {
     align-items: center;
   }
+  main .main-container .right-side .info .titulo i {
+    display: none;
+  }
   main .main-container .right-side .info .mobile-main-foto {
     display: flex;
+  }
+  main .main-container .right-side .mas-info .linea {
+    width: 106%;
+    left: -15px;
   }
   main .main-container .right-side .rs-container {
     width: 100%;
     border: none;
     padding: 0;
+    margin-top: 0;
   }
   main .main-container.container {
     padding-left: 15px;
