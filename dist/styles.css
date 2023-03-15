@@ -29,6 +29,10 @@ body {
   min-height: 100%;
 }
 
+.mobile {
+  display: none !important;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -751,6 +755,29 @@ main .main-container .right-side .info .beneficios .beneficio p a {
   color: #3483fa;
   font-weight: 500;
 }
+main .main-container .right-side .info .beneficios .agregar-favoritos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  color: #3483fa;
+  gap: 20px;
+  margin: 10px 0 20px;
+  font-weight: 500;
+}
+main .main-container .right-side .info .beneficios .agregar-favoritos div {
+  display: flex;
+  gap: 8px;
+}
+main .main-container .right-side .info .linea {
+  position: relative;
+  margin: 35px 0;
+  width: 350px;
+  height: 1px;
+  background: rgba(124, 123, 123, 0.262745098);
+  bottom: 0;
+  left: -17px;
+}
 main .main-container .right-side .info-vendedor {
   padding: 32px 16px !important;
 }
@@ -1154,9 +1181,16 @@ footer button i {
   font-weight: bold;
 }
 
+.mobile {
+  display: none;
+}
+
 @media (max-width: 768px) {
   html {
     font-size: 14px;
+  }
+  .mobile {
+    display: block !important;
   }
   .container {
     width: 100%;
@@ -1256,6 +1290,14 @@ footer button i {
   main .main-container .right-side .info .mobile-main-foto {
     display: flex;
   }
+  main .main-container .right-side .info .linea {
+    width: 106%;
+    left: -13px;
+    margin: 10px 0;
+  }
+  main .main-container .right-side .info .agregar-favoritos {
+    display: flex !important;
+  }
   main .main-container .right-side .mas-info .linea {
     width: 106%;
     left: -15px;
@@ -1268,5 +1310,8 @@ footer button i {
   }
   main .main-container.container {
     padding-left: 15px;
+  }
+  .wrappers, .ofertas, footer {
+    display: none;
   }
 }/*# sourceMappingURL=styles.css.map */
