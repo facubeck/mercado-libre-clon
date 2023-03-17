@@ -653,7 +653,7 @@ main .main-container .right-side .info .mobile-main-foto {
 }
 main .main-container .right-side .info .mobile-main-foto .mobile-photo {
   margin: 10px;
-  width: 60%;
+  width: 70%;
 }
 main .main-container .right-side .info .mobile-main-foto i {
   background: rgba(0, 0, 0, 0.1);
@@ -879,6 +879,9 @@ main .main-container .right-side .info-vendedor h3#subtitulo {
   margin-top: 10px;
   font-weight: 500;
 }
+main .main-container .right-side .info-vendedor h3#subtitulo i {
+  display: none;
+}
 main .main-container .right-side .mas-info h2.titulo {
   margin: 15px 0 30px;
   font-weight: 500;
@@ -894,6 +897,9 @@ main .main-container .right-side .mas-info h3.conocer-mas {
   cursor: pointer;
   margin-top: 10px;
   font-weight: 500;
+}
+main .main-container .right-side .mas-info h3.conocer-mas i {
+  display: none;
 }
 main .main-container .right-side .mas-info .linea {
   position: relative;
@@ -950,8 +956,8 @@ main .main-container .right-side .mobile-wrapper {
   gap: 50px;
 }
 main .main-container .right-side .mobile-wrapper h1.titulo {
-  font-size: 1rem;
-  color: RGBA(0, 0, 0, 0.9);
+  font-size: 1.1rem;
+  color: RGBA(0, 0, 0);
   font-weight: 500;
   display: inline-block;
 }
@@ -1023,6 +1029,59 @@ main .main-container .right-side .mobile-wrapper .wrapper .item-image {
   height: 220px;
   width: 198px;
   border-radius: 4px 4px 0 0;
+}
+main .main-container .right-side .mobile-publicaciones {
+  margin: 30px 0 !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+main .main-container .right-side .mobile-publicaciones h1.titulo {
+  font-size: 1.1rem;
+  color: RGBA(0, 0, 0);
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+main .main-container .right-side .mobile-publicaciones .publicacion {
+  display: flex;
+  margin-bottom: 40px;
+}
+main .main-container .right-side .mobile-publicaciones .publicacion img {
+  width: 25%;
+}
+main .main-container .right-side .mobile-publicaciones .publicacion .textos {
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+main .main-container .right-side .mobile-publicaciones .publicacion .textos h1 {
+  font-size: 0.85rem;
+  font-weight: 400;
+}
+main .main-container .right-side .mobile-publicaciones .publicacion .textos h3.precio {
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+main .main-container .right-side .mobile-publicaciones .publicacion .textos h3.envio {
+  font-size: 0.813rem;
+  color: #00a650;
+  font-weight: 600;
+}
+main .main-container .right-side .mobile-publicaciones h3.subtitulo {
+  font-size: 0.75rem;
+  color: #3483fa;
+  background: none;
+  cursor: pointer;
+  margin-top: 10px;
+  font-weight: 500;
+  width: 100%;
+  border: 1px solid rgba(124, 123, 123, 0.1215686275);
+  border-radius: 3px;
+  padding: 10px 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 main .main-container.container {
   max-width: 1180px;
@@ -1371,6 +1430,29 @@ footer button i {
   main .main-container .right-side .info .agregar-favoritos {
     display: flex !important;
   }
+  main .main-container .right-side .info-vendedor {
+    padding: 0 !important;
+  }
+  main .main-container .right-side .info-vendedor h3#subtitulo,
+  main .main-container .right-side .mas-info h3.conocer-mas {
+    font-size: 0.75rem;
+    color: #3483fa;
+    background: none;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid rgba(124, 123, 123, 0.1215686275);
+    border-radius: 3px;
+    padding: 10px 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  main .main-container .right-side .info-vendedor h3#subtitulo i,
+  main .main-container .right-side .mas-info h3.conocer-mas i {
+    display: inline-block;
+  }
   main .main-container .right-side .rs-container {
     width: 100%;
     border: none;
@@ -1378,17 +1460,23 @@ footer button i {
     margin-top: 0;
     border: none;
   }
-  main .main-container .right-side .mobile-wrapper {
-    order: 2 !important;
+  main .main-container .right-side .rs-container h2 {
+    font-size: 1.1rem;
   }
   main .main-container .right-side .info {
     order: 1 !important;
   }
-  main .main-container .right-side .info-vendedor {
+  main .main-container .right-side .mobile-wrapper {
+    order: 2 !important;
+  }
+  main .main-container .right-side .mobile-publicaciones {
     order: 3 !important;
   }
-  main .main-container .right-side .mas-info {
+  main .main-container .right-side .info-vendedor {
     order: 4 !important;
+  }
+  main .main-container .right-side .mas-info {
+    order: 5 !important;
   }
   main .main-container.container {
     padding-left: 15px;
