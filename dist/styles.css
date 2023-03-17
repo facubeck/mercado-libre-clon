@@ -1025,7 +1025,7 @@ main .main-container .right-side .mobile-wrapper .wrapper .item:hover {
   box-shadow: 3px 3px 8px 1px rgba(191, 186, 186, 0.433);
 }
 main .main-container .right-side .mobile-wrapper .wrapper .item-image {
-  height: 220px;
+  height: 200px;
   width: 198px;
   border-radius: 4px 4px 0 0;
 }
@@ -1488,9 +1488,28 @@ footer button i {
     margin-top: 0;
     padding-top: 10px;
   }
-  .wrappers,
-  .ofertas,
-  footer {
+  main .numero-publicacion {
+    justify-content: flex-start;
+    padding-left: 15px;
+  }
+  main .wrappers .all-container {
+    padding-inline: 15px;
+  }
+  main .wrappers section:nth-of-type(2) {
+    display: none;
+  }
+  main .wrappers .wrapper {
+    margin-left: 0;
+  }
+  main .wrappers .wrapper .item {
+    width: 200px;
+    height: 100%;
+  }
+  main .wrappers .wrapper .item .item-image {
+    height: 200px;
+    width: 198px;
+  }
+  .ofertas {
     display: none;
   }
 }/*# sourceMappingURL=styles.css.map */
