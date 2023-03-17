@@ -1396,6 +1396,15 @@ footer button i {
     content: "" !important;
     bottom: -40px;
   }
+  main .main-container .left-side .preguntas-y-respuestas .que-queres-saber ul {
+    flex-wrap: wrap;
+  }
+  main .main-container .left-side .preguntas-y-respuestas .preguntale-al-vendedor form {
+    flex-direction: column;
+  }
+  main .main-container .left-side .preguntas-y-respuestas .preguntale-al-vendedor form input {
+    width: 100%;
+  }
   main .main-container .left-side .ls-container {
     width: 100%;
   }
