@@ -1389,8 +1389,14 @@ footer button i {
   main .main-container .left-side .mas-publicaciones {
     display: none;
   }
-  main .main-container .left-side .caracteristicas-principales h1 {
-    margin-top: 0;
+  main .main-container .left-side .caracteristicas-principales h1,
+  main .main-container .left-side .descripcion h1,
+  main .main-container .left-side .preguntas-y-respuestas h1 {
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+  main .main-container .left-side .caracteristicas-principales h3 {
+    font-size: 1rem;
   }
   main .main-container .left-side .descripcion:after {
     content: "" !important;
@@ -1492,14 +1498,24 @@ footer button i {
     justify-content: flex-start;
     padding-left: 15px;
   }
+  main .wrappers {
+    margin-top: 15px;
+  }
   main .wrappers .all-container {
     padding-inline: 15px;
   }
   main .wrappers section:nth-of-type(2) {
     display: none;
   }
+  main .wrappers h1.titulo {
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
   main .wrappers .wrapper {
     margin-left: 0;
+  }
+  main .wrappers .wrapper .carousel {
+    height: 100%;
   }
   main .wrappers .wrapper .item {
     width: 200px;
@@ -1509,7 +1525,20 @@ footer button i {
     height: 200px;
     width: 198px;
   }
-  .ofertas {
+  main .ofertas {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    background: none;
+    padding-inline: 15px;
+  }
+  main .ofertas .main-image {
+    width: 100%;
+  }
+  main .ofertas .logo-container {
     display: none;
+  }
+  main .ofertas .textos {
+    background: #8533af;
   }
 }/*# sourceMappingURL=styles.css.map */
