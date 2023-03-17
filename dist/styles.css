@@ -1624,6 +1624,28 @@ footer button i {
   }
   main footer {
     order: 7;
+    padding-bottom: 20px;
+  }
+  main footer ul.footer-nav:nth-of-type(1) {
+    display: none;
+  }
+  main footer ul.footer-nav:nth-of-type(2) {
+    display: grid !important;
+    grid-template-columns: 50% 50%;
+    margin: 0 auto;
+    padding-inline: 30px;
+  }
+  main footer .linea {
+    position: relative;
+    margin: 20px 0 !important;
+    width: 108%;
+    height: 1px;
+    background: rgba(124, 123, 123, 0.1215686275);
+    bottom: 0;
+    left: -17px;
+  }
+  main footer h3 {
+    padding-inline: 30px;
   }
   main footer button {
     display: none;
