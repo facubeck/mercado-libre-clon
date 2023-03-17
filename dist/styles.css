@@ -616,7 +616,7 @@ main .main-container .right-side {
 }
 main .main-container .right-side .linea {
   position: relative;
-  margin: 20px 0;
+  margin: 40px 0 !important;
   width: 350px;
   height: 1px;
   background: rgba(124, 123, 123, 0.1215686275);
@@ -952,7 +952,6 @@ main .main-container .right-side .mobile-wrapper {
   font-family: "Montserrat", "proxima-font", sans-serif;
   display: flex;
   flex-direction: column;
-  margin-top: 20px !important;
   gap: 50px;
 }
 main .main-container .right-side .mobile-wrapper h1.titulo {
@@ -974,7 +973,7 @@ main .main-container .right-side .mobile-wrapper .wrapper {
   margin-left: 5px;
 }
 main .main-container .right-side .mobile-wrapper .wrapper .carousel {
-  height: 380px;
+  height: 100%;
   overflow: auto;
   scroll-behavior: smooth;
   scrollbar-width: none;
@@ -1031,7 +1030,6 @@ main .main-container .right-side .mobile-wrapper .wrapper .item-image {
   border-radius: 4px 4px 0 0;
 }
 main .main-container .right-side .mobile-publicaciones {
-  margin: 30px 0 !important;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1067,21 +1065,6 @@ main .main-container .right-side .mobile-publicaciones .publicacion .textos h3.e
   font-size: 0.813rem;
   color: #00a650;
   font-weight: 600;
-}
-main .main-container .right-side .mobile-publicaciones h3.subtitulo {
-  font-size: 0.75rem;
-  color: #3483fa;
-  background: none;
-  cursor: pointer;
-  margin-top: 10px;
-  font-weight: 500;
-  width: 100%;
-  border: 1px solid rgba(124, 123, 123, 0.1215686275);
-  border-radius: 3px;
-  padding: 10px 20px;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
 }
 main .main-container.container {
   max-width: 1180px;
@@ -1406,6 +1389,13 @@ footer button i {
   main .main-container .left-side .mas-publicaciones {
     display: none;
   }
+  main .main-container .left-side .caracteristicas-principales h1 {
+    margin-top: 0;
+  }
+  main .main-container .left-side .descripcion:after {
+    content: "" !important;
+    bottom: -40px;
+  }
   main .main-container .left-side .ls-container {
     width: 100%;
   }
@@ -1430,11 +1420,15 @@ footer button i {
   main .main-container .right-side .info .agregar-favoritos {
     display: flex !important;
   }
+  main .main-container .right-side .mas-info h2.titulo {
+    margin: 0 0 30px;
+  }
   main .main-container .right-side .info-vendedor {
     padding: 0 !important;
   }
   main .main-container .right-side .info-vendedor h3#subtitulo,
-  main .main-container .right-side .mas-info h3.conocer-mas {
+  main .main-container .right-side .mas-info h3.conocer-mas,
+  main .main-container .right-side .mobile-publicaciones h3.subtitulo {
     font-size: 0.75rem;
     color: #3483fa;
     background: none;
@@ -1450,7 +1444,8 @@ footer button i {
     justify-content: space-between;
   }
   main .main-container .right-side .info-vendedor h3#subtitulo i,
-  main .main-container .right-side .mas-info h3.conocer-mas i {
+  main .main-container .right-side .mas-info h3.conocer-mas i,
+  main .main-container .right-side .mobile-publicaciones h3.subtitulo i {
     display: inline-block;
   }
   main .main-container .right-side .rs-container {
