@@ -122,4 +122,17 @@ function ponerFoto2() {
   foto2.style.outline = "1px solid rgb(22, 22, 233)";
 };
 
-// 
+// Cerrar Modal
+// DOM
+const modal = document.getElementById('modal');
+const overlay = document.getElementById('overlay');
+const closeButton = document.getElementById('close-button');
+
+const cerrarModal = () => {
+    overlay.classList.add('hidden');
+    modal.classList.add('hidden');
+    document.body.style.overflow = 'visible'
+}
+
+closeButton.addEventListener('click', cerrarModal);
+overlay.addEventListener('click', cerrarModal);

@@ -3,18 +3,6 @@
   font-family: "proxima-font", sans-serif;
   src: url(fonts/Proxima-Nova-Font.otf);
 }
-@font-face {
-  font-family: "proxima-semi";
-  src: url(fonts/Fontspring-DEMO-proximanovaexcn-semibold.otf;);
-}
-@font-face {
-  font-family: "proxima-light";
-  src: url(fonts/Fontspring-DEMO-proximanova-light.otf);
-}
-@font-face {
-  font-family: "proxima-bold";
-  src: url(fonts/Fontspring-DEMO-proximanovaexcn-bold.otf);
-}
 * {
   margin: 0;
   padding: 0;
@@ -1312,6 +1300,110 @@ footer button i {
   display: none;
 }
 
+.modal {
+  position: fixed;
+  width: 400px;
+  position: fixed;
+  background: #333;
+  color: #fff;
+  border: 4px solid black;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 101;
+  font-family: "Montserrat", "proxima-font", sans-serif;
+  border-radius: 5px;
+  padding: 20px;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.modal h4 {
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.modal p {
+  padding: 5px;
+  line-height: 25px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #b6bbc1;
+}
+.modal p a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+.modal p a:hover {
+  filter: brightness(0.9);
+}
+.modal p.creado-por {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+}
+.modal #info {
+  height: 70px;
+  aspect-ratio: 1;
+  border: 4px solid black;
+  border-radius: 50%;
+  background: #b6bbc1;
+  position: absolute;
+  top: -35px;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  color: black;
+}
+.modal .close {
+  font-size: 30px;
+  align-self: center;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.modal .close:hover {
+  transform: translateY(-2px) scale(1.1);
+  transition: ease-in-out 0.3s;
+}
+
+.modal.hidden {
+  visibility: hidden !important;
+  transition: ease-in-out 0.4s !important;
+  transform: translate(-50%, -50%) scale(0);
+}
+
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  visibility: visible;
+}
+
+.overlay.hidden {
+  display: none;
+  transition: ease-in-out 0.2s !important;
+}
+
+@keyframes modal-animation {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
 @media (max-width: 768px) {
   html {
     font-size: 14px;
@@ -1649,5 +1741,8 @@ footer button i {
   }
   main footer button {
     display: none;
+  }
+  .modal {
+    width: 350px;
   }
 }/*# sourceMappingURL=styles.css.map */
