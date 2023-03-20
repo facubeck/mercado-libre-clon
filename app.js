@@ -131,7 +131,8 @@ const closeButton = document.getElementById('close-button');
 const cerrarModal = () => {
     overlay.classList.add('hidden');
     modal.classList.add('hidden');
-    document.body.style.overflow = 'visible'
+    // document.body.style.overflow = 'visible';
+    document.body.classList.remove('no-scroll');
 }
 
 closeButton.addEventListener('click', cerrarModal);

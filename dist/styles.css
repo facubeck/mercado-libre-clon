@@ -17,6 +17,12 @@ body {
   min-height: 100%;
 }
 
+body.no-scroll {
+  position: fixed;
+  width: 100%;
+  overflow-y: scroll;
+}
+
 .mobile {
   display: none !important;
 }
