@@ -1380,7 +1380,7 @@ footer button i {
 
 .modal.hidden {
   visibility: hidden !important;
-  transition: ease-in-out 0.4s !important;
+  transition: ease-in-out 0.8s !important;
   transform: translate(-50%, -50%) scale(0);
 }
 
@@ -1394,12 +1394,12 @@ footer button i {
   left: 0;
   right: 0;
   bottom: 0;
-  visibility: visible;
+  opacity: 1;
+  transition: 1s ease-in-out all;
 }
 
 .overlay.hidden {
-  display: none;
-  transition: ease-in-out 0.2s !important;
+  opacity: 0;
 }
 
 @keyframes modal-animation {
