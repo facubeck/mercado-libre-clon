@@ -27,7 +27,7 @@ prev.addEventListener("click", (e) => {
 let width = carousel.offsetWidth;
 window.addEventListener("resize", (e) => (width = carousel.offsetWidth));
 
-// Segundo Carousel
+// Quienes vieron este producto tambien compraron - Carousel
 const gapPromo = 27;
 
 const carouselPromo = document.getElementById("carouselPromo"),
@@ -66,7 +66,7 @@ window.addEventListener(
   (e) => (widthPromo = carouselPromo.offsetWidth)
 );
 
-// Tercer Carousel
+// Quienes vieron este producto tambien compraron - Carousel
 const gapTambien = 27;
 
 const carouselTambien = document.getElementById("carouselTambien"),
@@ -133,6 +133,15 @@ const cerrarModal = () => {
     modal.classList.add('hidden');
     // document.body.style.overflow = 'visible';
     document.body.classList.remove('no-scroll');
+
+    setTimeout(() => {
+      if (overlay.classList.contains('hidden')) {
+          let style = getComputedStyle(overlay);
+          let opacity = style.opacity;
+          overlay.style.display = 'none'
+          console.log(opacity);
+      }
+  }, 700)
 }
 
 closeButton.addEventListener('click', cerrarModal);
